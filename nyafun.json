@@ -10,8 +10,8 @@
     "baseURL": "https://www.nyafun.net",
     "searchURL":"https://www.nyafun.net/search.html?wd=@keyword",
     "searchList": "//div[4]/div/div[1]/div/div",
-    "searchName": "//div[2]/div[1]/a[1]/strong",
-    "searchResult": "//div[2]/div[1]/a[1]",
-    "chapterRoads": "//div/div[2]/div/div[3]/div/div[1]/div[1]",
-    "chapterResult": "//a"
+    "searchName": "//div[3]/div[1]/div[1]/a[1]",
+    "searchResult": "//div[3]/div[1]/div[1]/a[1]",
+    "chapterRoads": "//div[5]/div[2]/div[2]/div/div/ul",
+    "chapterResult": "//li/a"
 }
