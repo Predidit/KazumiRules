@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "eacg",
+    "version": "0.0.1",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://eacg1.com",
+    "searchURL":"https://eacg1.com/vodsearch/-------------.html?wd=@keyword",
+    "searchList": "//div[3]/div/div/dl",
+    "searchName": "//dd[1]/h1/a",
+    "searchResult": "//dd[1]/h1/a",
+    "chapterRoads": "//div[3]/div/div[2]/div/div[1]/div[2]/div[1]/ul[2]",
+    "chapterResult": "//li/a"
+}

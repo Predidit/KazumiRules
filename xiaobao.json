@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "xiaobao",
+    "version": "0.0.1",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.xiaobaotv.app",
+    "searchURL":"https://www.xiaobaotv.app/vod/search/-------------.html?wd=@keyword",
+    "searchList": "//div[1]/div/div/div[1]/div/div/div[2]/ul/li",
+    "searchName": "//div[2]/h4/a",
+    "searchResult": "//div[2]/h4/a",
+    "chapterRoads": "//div[1]/div/div[1]/div[3]/div/div[2]/div/ul",
+    "chapterResult": "//li/a"
+}
