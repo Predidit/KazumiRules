@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "muliSources": true,
     "useWebview": true,
-    "useNativePlayer": true,
+    "useNativePlayer": false,
     "userAgent": "",
     "baseURL": "https://eacg1.com",
     "searchURL":"https://eacg1.com/vodsearch/-------------.html?wd=@keyword",
