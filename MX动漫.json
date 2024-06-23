@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "MX动漫",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.mxdm.fans/",
+    "searchURL":"https://www.mxdm.fans/search/-------------.html?wd=@keyword",
+    "searchList": "//main/div/div[2]/div/div//div",
+    "searchName": "//div[2]/div[1]/h3/a",
+    "searchResult": "//div[2]/div[1]/h3/a",
+    "chapterRoads": "//main/div/div[2]//div",
+    "chapterResult": "//div[3]/div//a"
+}
