@@ -1,7 +1,7 @@
 {
     "api": "1",
     "type": "anime",
-    "name": "MX动漫",
+    "name": "MXdm",
     "version": "1.0",
     "muliSources": true,
     "useWebview": true,
