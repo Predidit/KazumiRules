@@ -52,5 +52,23 @@
         "version": "0.0.2",
         "useNativePlayer": false,
         "author": ""
-    }   
+    },
+    {
+        "name": "xfdm",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "MXdm",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "mengfan",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
 ]
