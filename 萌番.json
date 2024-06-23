@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "萌番",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.mfan.tv/",
+    "searchURL":"https://www.mfan.tv/search/?wd=@keyword&submit=",
+    "searchList": "//div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul//li",
+    "searchName": "//div/div/div[2]/div[1]/a",
+    "searchResult": "//div/div/div[2]/div[2]/a",
+    "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]//div",
+    "chapterResult": "//li/a"
+}
