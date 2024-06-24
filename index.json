@@ -70,5 +70,29 @@
         "version": "1.0",
         "useNativePlayer": true,
         "author": ""
+    },
+    {
+        "name": "MT",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "NT",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "ciyuancheng",
+        "version": "1.0",
+        "useNativePlayer": false,
+        "author": ""
+    },
+    {
+        "name": "FQDM",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
     }
 ]

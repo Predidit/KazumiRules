@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "NT",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.ntdm9.com/",
+    "searchURL":"https://www.ntdm9.com/search/-------------.html?wd=@keyword&page=1",
+    "searchList": "//div[1]/div[2]/div[2]/div//div",
+    "searchName": "//div/div[1]/a",
+    "searchResult": "//div/div[3]/a[1]",
+    "chapterRoads": "//div[1]/div[2]/div[4]/div[5]/div[2]/div//div",
+    "chapterResult": "//li/a"
+}

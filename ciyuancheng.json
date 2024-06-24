@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "ciyuancheng",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": false,
+    "userAgent": "",
+    "baseURL": "https://www.cycanime.com/",
+    "searchURL":"https://www.cycanime.com/search.html?wd=@keyword",
+    "searchList": "//div[4]/div[1]/div[1]/div[1]/div",
+    "searchName": "//div[3]/div[1]/div[1]",
+    "searchResult": "//div[3]/div[2]/a[1]",
+    "chapterRoads": "//div[5]/div[2]/div[2]/div/div/ul",
+    "chapterResult": "//li/a"
+}
