@@ -5,7 +5,7 @@
     "version": "1.0",
     "muliSources": true,
     "useWebview": true,
-    "useNativePlayer": true,
+    "useNativePlayer": false,
     "userAgent": "",
     "baseURL": "https://www.cycanime.com/",
     "searchURL":"https://www.cycanime.com/search.html?wd=@keyword",
