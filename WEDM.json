@@ -1,0 +1,18 @@
+
+{
+    "api": "1",
+    "type": "anime",
+    "name": "WEDM",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.vdm5.com/",
+    "searchURL":"https://www.vdm5.com/search/-------------.html?wd=@keyword",
+    "searchList": "//div[2]/div[2]//div",
+    "searchName": "//div/div/div[2]/a",
+    "searchResult": "//div/div/div[4]/a",
+    "chapterRoads": "//div[5]/div[1]/div[2]/div[2]//div[position() > 1]",
+    "chapterResult": "//ul/li/a"
+}
