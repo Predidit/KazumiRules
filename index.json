@@ -96,12 +96,6 @@
         "author": ""
     },
     {
-        "name": "HZDM",
-        "version": "1.0",
-        "useNativePlayer": true,
-        "author": ""
-    },
-    {
         "name": "IF",
         "version": "1.0",
         "useNativePlayer": false,
