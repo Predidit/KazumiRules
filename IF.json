@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "IF",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": false,
+    "userAgent": "",
+    "baseURL": "https://www.lffun.com/",
+    "searchURL":"https://www.lffun.com/vodsearch/-------------.html?wd=@keyword",
+    "searchList": "//div[3]/div[2]//div",
+    "searchName": "//div[2]/a",
+    "searchResult": "//div[2]/a",
+    "chapterRoads": "//div[5]/div[2]/div[2]/div/div/ul",
+    "chapterResult": "//li/a"
+}
