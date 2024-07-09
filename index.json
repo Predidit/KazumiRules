@@ -60,6 +60,12 @@
         "author": ""
     },
     {
+        "name": "1ANI",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
         "name": "MT",
         "version": "1.0",
         "useNativePlayer": true,
