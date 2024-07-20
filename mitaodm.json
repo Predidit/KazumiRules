@@ -8,10 +8,10 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.mitaodm.com/",
-    "searchURL":"https://www.mitaodm.com/vodsearch.html?wd=@keyword&submit=",
+    "searchURL": "https://www.mitaodm.com/vodsearch.html?wd=@keyword&submit=",
     "searchList": "//div[1]/div/div/div[2]/ul/li",
     "searchName": "//div/div/h4/a",
-    "searchResult": //div/div/h4/a",
+    "searchResult": "//div/div/h4/a",
     "chapterRoads": "//div[1]/div/div/div/div/div",
     "chapterResult": "//ul/li/a"
 }
