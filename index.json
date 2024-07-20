@@ -6,10 +6,34 @@
         "author": ""
     },
     {
-        "name": "dilidili",
+        "name": "mitaodm",
         "version": "1.0",
         "useNativePlayer": true,
-        "author": "XiaoE"
+        "author": ""
+    },
+    {
+        "name": "mtacg",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "xiapidm",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "yinghua",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "ziyedm",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
     },
     {
         "name": "giriGiriLove",
@@ -25,7 +49,7 @@
     },
     {
         "name": "AGE",
-        "version": "1.0",
+        "version": "1.1",
         "useNativePlayer": true,
         "author": ""
     },
