@@ -12,6 +12,6 @@
     "searchList": "//div/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul[1]/li",
     "searchName": "//div/div/div[2]/div[1]/div/a",
     "searchResult": "//div/div/div[2]/div[1]/div/a",
-    "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div",
-    "chapterResult": "//div[2]/div/div/ul/li/a"
+    "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div",
+    "chapterResult": "//div/div/ul/li/a"
 }
