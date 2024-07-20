@@ -8,7 +8,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.agedm.org/",
-    "searchURL":"https://www.agedm.org/search?query=@keyword",
+    "searchURL": "https://www.agedm.org/search?query=@keyword",
     "searchList": "//div[2]/div/section/div/div/div/div",
     "searchName": "//div/div[2]/h5/a",
     "searchResult": "//div/div[2]/h5/a",
