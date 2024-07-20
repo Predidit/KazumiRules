@@ -6,12 +6,6 @@
         "author": ""
     },
     {
-        "name": "mitaodm",
-        "version": "1.0",
-        "useNativePlayer": true,
-        "author": ""
-    },
-    {
         "name": "xiapidm",
         "version": "1.0",
         "useNativePlayer": true,
