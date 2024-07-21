@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "9ciyuan",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://9ciyuan.com",
+    "searchURL": "https://9ciyuan.com/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div[4]/div",
+    "searchName": "//div[2]/h3",
+    "searchResult": "//div[2]/h3/a",
+    "chapterRoads": "//div[4]/div[2]/div[1]/div[1]/div[2]//ul",
+    "chapterResult": "//li/a"
+}
