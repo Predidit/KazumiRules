@@ -2,7 +2,7 @@
     "api": "1",
     "type": "anime",
     "name": "ziyedm",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -12,6 +12,6 @@
     "searchList": "//div[2]/div[2]/dl",
     "searchName": "//dd/p[1]/strong/a",
     "searchResult": "//dd/p[1]/strong/a",
-    "chapterRoads": "//div[2]/div[1]/div[3]/div/div",
+    "chapterRoads": "//div[2]/div[1]/div[4]/div/div",
     "chapterResult": "//ul/li/a"
 }
