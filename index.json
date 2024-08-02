@@ -66,6 +66,12 @@
         "author": ""
     },
     {
+        "name": "kimani",
+        "version": "0.0.1",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
         "name": "FQDM",
         "version": "1.0",
         "useNativePlayer": true,
