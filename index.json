@@ -42,12 +42,6 @@
         "author": ""
     },
     {
-        "name": "mengfan",
-        "version": "1.2",
-        "useNativePlayer": true,
-        "author": ""
-    },
-    {
         "name": "1ANI",
         "version": "1.1",
         "useNativePlayer": true,
@@ -92,6 +86,12 @@
     {
         "name": "BF",
         "version": "1.1",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "9ciyuan",
+        "version": "1.0",
         "useNativePlayer": true,
         "author": ""
     }
