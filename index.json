@@ -30,6 +30,12 @@
         "author": ""
     },
     {
+        "name": "yishijie",
+        "version": "0.1",
+        "useNativePlayer": true,
+        "author": "biusp"
+    },
+    {
         "name": "mwcy",
         "version": "0.0.1",
         "useNativePlayer": false,
@@ -91,7 +97,7 @@
     },
     {
         "name": "clicli",
-        "version": "0.1",
+        "version": "0.2",
         "useNativePlayer": false,
         "author": "biusp"
     }
