@@ -37,14 +37,8 @@
     },
     {
         "name": "mwcy",
-        "version": "0.0.1",
-        "useNativePlayer": false,
-        "author": ""
-    },
-    {
-        "name": "nyafun",
         "version": "0.0.2",
-        "useNativePlayer": false,
+        "useNativePlayer": true,
         "author": ""
     },
     {
