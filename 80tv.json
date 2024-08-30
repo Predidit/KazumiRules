@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "80tv",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.80s-tv.com/",
+    "searchURL": "https://www.80s-tv.com/search.html?wd=@keyword&submit=",
+    "searchList": "//div[2]/div[1]/div/ul/li",
+    "searchName": "//div[2]/h4/a",
+    "searchResult": "//div[2]/h4/a",
+    "chapterRoads": "//div[3]/div[1]/div[2]/div[2]/div/div[3]/ul",
+    "chapterResult": "//li/a"
+}
