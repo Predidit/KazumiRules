@@ -3,16 +3,16 @@
     "api": "1",
     "type": "anime",
     "name": "WEDM",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.vdm5.com/",
-    "searchURL":"https://www.vdm5.com/search/-------------.html?wd=@keyword",
-    "searchList": "//div[2]/div[2]//div",
-    "searchName": "//div/div/div[2]/a",
-    "searchResult": "//div/div/div[4]/a",
-    "chapterRoads": "//div[5]/div[1]/div[2]/div[2]//div[position() > 1]",
-    "chapterResult": "//ul/li/a"
+    "searchURL":"https://www.vdm5.com/search_-------------.html?wd=@keyword",
+    "searchList": "//div[1]/div/div[1]/div/div/div[2]/ul/li",
+    "searchName": "//div[2]/h3/a",
+    "searchResult": "//div[2]/h3/a",
+    "chapterRoads": "//div[1]/div/div[1]/div/div/div[2]/ul",
+    "chapterResult": "//li/a"
 }
