@@ -1,0 +1,17 @@
+{
+    "api": "2",
+    "type": "1",
+    "name": "dms",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.agedms.com/",
+    "searchURL": "https://www.agedms.com/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div[1]/div[3]/div/div/div[2]/div/div",
+    "searchName": "//div[2]/div[1]/a",
+    "searchResult": "//div[2]/div[1]/a",
+    "chapterRoads": "//div/div[3]/div/div[2]/div/div/div",
+    "chapterResult": "//a"
+}
