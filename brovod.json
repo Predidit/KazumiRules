@@ -1,0 +1,18 @@
+{
+  "api": "2",
+  "type": "anime",
+  "name": "brovod",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": false,
+  "usePost": false,
+  "userAgent": "",
+  "baseURL": "https://www.brovod.com",
+  "searchURL": "https://www.brovod.com/ss/-------------/?wd=@keyword",
+  "searchList": "//div[@class='module-card-item module-item']",
+  "searchName": "//a/strong",
+  "searchResult": "//a",
+  "chapterRoads": "//div[@class='module-play-list']",
+  "chapterResult": "//a"
+}
