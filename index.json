@@ -124,5 +124,11 @@
         "version": "1.0",
         "useNativePlayer": false,
         "author": ""
+    },
+    {
+        "name": "akiamime",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": "404"
     }
 ]
