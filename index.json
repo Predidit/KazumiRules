@@ -118,5 +118,11 @@
         "version": "0.2",
         "useNativePlayer": false,
         "author": "biusp"
+    },
+    {
+        "name": "brovod",
+        "version": "1.0",
+        "useNativePlayer": false,
+        "author": ""
     }
 ]
