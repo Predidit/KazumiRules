@@ -1,0 +1,18 @@
+{
+    "api": "2",
+    "type": "anime",
+    "name": "233dm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "userAgent": "",
+    "baseURL": "https://www.233dm.cc",
+    "searchURL": "https://www.233dm.cc/vs.html?wd=@keyword",
+    "searchList": "//div[@class='movie-ul']/div",
+    "searchName": "//div[@class='title']",
+    "searchResult": "//a",
+    "chapterRoads": "//div[@class='tab-content']/div",
+    "chapterResult": "//a"
+}
