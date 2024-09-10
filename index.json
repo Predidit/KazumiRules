@@ -85,8 +85,8 @@
     },
     {
         "name": "ciyuancheng",
-        "version": "1.0",
-        "useNativePlayer": false,
+        "version": "1.1",
+        "useNativePlayer": true,
         "author": ""
     },
     {
