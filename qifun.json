@@ -1,0 +1,19 @@
+{
+    "api": "2",
+    "type": "anime",
+    "name": "qifun",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "userAgent": "",
+    "baseURL": "https://www.qifun.cc/",
+    "searchURL": "https://www.qifun.cc/vodsearch/-------------.html?wd=@keyword",
+    "searchList": "//div[1]/div/div/section/div/div",
+    "searchName": "//div/div[2]/h6/a",
+    "searchResult": "//div/div[2]/h6/a",
+    "chapterRoads": "//div[1]/div/div/div[1]/section[3]/div[2]/div",
+    "chapterResult": "//div/a"
+  }
+  
