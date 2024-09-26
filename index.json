@@ -84,6 +84,12 @@
         "author": ""
     },
     {
+        "name": "pekolove",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
         "name": "FQDM",
         "version": "1.0",
         "useNativePlayer": true,

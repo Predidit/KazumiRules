@@ -1,0 +1,18 @@
+{
+    "api": "2",
+    "type": "anime",
+    "name": "pekolove",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "userAgent": "",
+    "baseURL": "https://acg.pekolove.net/",
+    "searchURL":"https://acg.pekolove.net/?s=@keyword",
+    "searchList": "//div[1]/div/div/div[2]/div[2]/div/div/div/ul/li",
+    "searchName": "//div/div/h2/a",
+    "searchResult": "//div/div/h2/a",
+    "chapterRoads": "//div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div",
+    "chapterResult": "//a"
+}
