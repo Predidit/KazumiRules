@@ -114,6 +114,12 @@
         "author": ""
     },
     {
+        "name": "nekodm",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
         "name": "brovod",
         "version": "1.0",
         "useNativePlayer": false,
