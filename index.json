@@ -136,5 +136,11 @@
         "version": "1.0",
         "useNativePlayer": true,
         "author": ""
+    },
+    {
+        "name": "mcy",
+        "version": "1.0",
+        "useNativePlayer": true,
+        "author": ""
     }
 ]
