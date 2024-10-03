@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "5dm",
+    "version": "1.1",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.5dm.link/",
+    "searchURL": "https://www.5dm.link/?s=@keyword",
+    "searchList": "//div[1]/div/div[1]/div/div/div/section/div[2]/div//div",
+    "searchName": "//div[1]/div/div[2]/h3/a",
+    "searchResult": "//div[1]/div/div[1]/div/a",
+    "chapterRoads": "//div[1]/div/header/div[5]/div/div[1]/div[4]/div/div/table/tbody//tr",
+    "chapterResult": "//td[2]/a"
+}
