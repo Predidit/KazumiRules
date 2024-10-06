@@ -1,0 +1,18 @@
+{
+    "api": "2",
+    "type": "anime",
+    "name": "acgParty",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": false,
+    "usePost": false,
+    "userAgent": "",
+    "baseURL": "https://www.acg.party/",
+    "searchURL":"https://www.acg.party/vodsearch/-------------/?wd=@keyword",
+    "searchList": "//div[4]/div/div[1]/div",
+    "searchName": "//div/div[3]/div[1]/div[1]/a",
+    "searchResult": "//div/div[3]/div[2]/a",
+    "chapterRoads": "//div[5]/div[2]/div[2]/div[1]/div/ul",
+    "chapterResult": "//li/a"
+}
