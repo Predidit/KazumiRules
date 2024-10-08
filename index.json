@@ -150,15 +150,15 @@
         "author": ""
     },
     {
-        "name": "brovod",
-        "version": "1.1",
-        "useNativePlayer": true,
-        "author": ""
-    },
-    {
         "name": "clicli",
         "version": "0.3",
         "useNativePlayer": false,
+        "author": ""
+    },
+    {
+        "name": "mwcy",
+        "version": "0.0.4",
+        "useNativePlayer": true,
         "author": ""
     }
 ]
