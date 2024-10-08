@@ -148,5 +148,11 @@
         "version": "1.3",
         "useNativePlayer": true,
         "author": ""
+    },
+    {
+        "name": "brovod",
+        "version": "1.1",
+        "useNativePlayer": true,
+        "author": ""
     }
 ]
