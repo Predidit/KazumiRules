@@ -1,11 +1,11 @@
 # KazumiRules
 Kazumi的规则托管仓库，欢迎贡献 ^•ﻌ•^
 
-| API Level | Kazumi Version   | Post Support*     | Legacy Parser Support†   |
-|-----------|------------------|-------------------|--------------------------|
-| 1         | >= 1.0.0         | ❌                | ❌                      |
-| 2         | >= 1.3.0         | ✅                | ❌                      |
-| 3         | >= 1.3.6         | ✅                | ✅                      |
+| API Level | Kazumi Version   | Post Support*     | Referer Support | Legacy Parser Support†   |
+|-----------|------------------|-------------------|-----------------|--------------------------|
+| 1         | >= 1.0.0         | ❌                |❌              | ❌                      |
+| 2         | >= 1.3.0         | ✅                |❌              | ❌                      |
+| 3         | >= 1.3.6         | ✅                |✅              | ✅                      |
 
 ### Feature Descriptions:
 
