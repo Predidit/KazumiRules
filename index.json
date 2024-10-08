@@ -148,5 +148,11 @@
         "version": "1.3",
         "useNativePlayer": true,
         "author": ""
+    },
+    {
+        "name": "clicli",
+        "version": "0.3",
+        "useNativePlayer": false,
+        "author": ""
     }
 ]
