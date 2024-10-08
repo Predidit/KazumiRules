@@ -6,6 +6,7 @@
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
+    "useLegacyParser": true,
     "userAgent": "",
     "baseURL": "https://dm1.xfdm.pro/",
     "searchURL":"https://dm1.xfdm.pro/search/wd/@keyword.html",
