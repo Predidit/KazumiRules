@@ -2,16 +2,16 @@
   "api": "1",
   "type": "anime",
   "name": "clicli",
-  "version": "0.2",
+  "version": "0.3",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": false,
   "userAgent": "",
   "baseURL": "https://www.clicli.pro",
-  "searchURL":"https://www.clicli.pro/search/?wd=@keyword",
-  "searchList": "//div[1]/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul/li",
-  "searchName": "//div/div/div[2]/div[1]/a",
-  "searchResult": "//div/div/div[2]/div[1]/a",
-  "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div/ul",
-  "chapterResult": "//a"
+  "searchURL": "https://www.clicli.pro/search/?wd=@keyword",
+  "searchList": "//div[@class='row']//ul/li",
+  "searchName": "//div[@class='hl-item-content']//a",
+  "searchResult": "//div[@class='hl-item-content']//a",
+  "chapterRoads": "//div[@class='hl-list-wrap']",
+  "chapterResult": "//ul/li/a"
 }
