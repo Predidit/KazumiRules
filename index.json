@@ -151,8 +151,8 @@
     },
     {
         "name": "clicli",
-        "version": "0.3",
-        "useNativePlayer": false,
+        "version": "0.4",
+        "useNativePlayer": true,
         "author": ""
     },
     {
