@@ -7,6 +7,7 @@
     "useWebview": true,
     "useNativePlayer": true,
     "useLegacyParser": true,
+    "usePost": false,
     "userAgent": "",
     "referer": "",
     "baseURL": "https://dm1.xfdm.pro/",
