@@ -61,7 +61,7 @@
     },
     {
         "name": "1ANI",
-        "version": "1.2",
+        "version": "1.3",
         "useNativePlayer": true,
         "author": ""
     },
@@ -139,7 +139,7 @@
     },
     {
         "name": "mwcy",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "useNativePlayer": true,
         "author": ""
     },
