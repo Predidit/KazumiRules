@@ -7,7 +7,7 @@
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
-    "referer": "https://play.nyadm.net/"
+    "referer": "https://play.nyadm.net/",
     "baseURL": "https://www.nyadm.net/",
     "searchURL":"https://www.nyadm.net/search.html?wd=@keyword",
     "searchList": "//div[4]/div/div[1]/div/div",
