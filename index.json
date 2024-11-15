@@ -148,11 +148,5 @@
         "version": "1.1",
         "useNativePlayer": true,
         "author": ""
-    },
-    {
-        "name": "nyafun",
-        "version": "0.0.3",
-        "useNativePlayer": true,
-        "author": ""
     }
 ]
