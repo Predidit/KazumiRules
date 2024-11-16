@@ -148,5 +148,17 @@
         "version": "1.1",
         "useNativePlayer": true,
         "author": ""
+    },
+    {
+        "name": "AnFuns",
+        "version": "0.1",
+        "useNativePlayer": true,
+        "author": ""
+    },
+    {
+        "name": "libvio",
+        "version": "0.1",
+        "useNativePlayer": true,
+        "author": ""
     }
 ]
