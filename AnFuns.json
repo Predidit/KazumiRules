@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "AnFuns",
+    "version": "0.1",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.anfuns.org/",
+    "searchURL":"https://www.anfuns.org/search.html?wd=@keyword",
+    "searchList": "//div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul/li/div",
+    "searchName": "//div/div[2]/div[1]/a",
+    "searchResult": "//div/div[2]/div[1]/a",
+    "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div",
+    "chapterResult": "//div/div/ul/li/a"
+}
