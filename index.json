@@ -156,8 +156,8 @@
         "author": ""
     },
     {
-        "name": "xfdm",
-        "version": "1.1",
+        "name": "libvio",
+        "version": "0.1",
         "useNativePlayer": true,
         "author": ""
     }
