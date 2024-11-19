@@ -2,16 +2,16 @@
     "api": "1",
     "type": "anime",
     "name": "ziyedm",
-    "version": "1.1",
+    "version": "1.2",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.ziyedm.com/",
-    "searchURL":"https://www.ziyedm.com/search/-------------/?wd=@keyword",
-    "searchList": "//div[2]/div[2]/dl",
-    "searchName": "//dd/p[1]/strong/a",
-    "searchResult": "//dd/p[1]/strong/a",
-    "chapterRoads": "//div[2]/div[1]/div[4]/div/div",
-    "chapterResult": "//ul/li/a"
+    "searchURL": "https://www.ziyedm.com/search/-------------/?wd=@keyword",
+    "searchList": "//div/div[2]/ul/li",
+    "searchName": "//h3/a",
+    "searchResult": "//h3/a",
+    "chapterRoads": "//div[contains(@class,'player')]",
+    "chapterResult": "//a"
 }
