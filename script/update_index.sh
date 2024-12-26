@@ -25,6 +25,13 @@ for file in ${ROOT_DIR}/*.json; do
             continue
         fi
         
+        # 检查是否已过时
+        deprecated=$(jq '.deprecated' "$file")
+        if [ "$deprecated" = "true" ]; then
+            echo "跳过已过时的规则: $filename"
+            continue
+        fi
+        
         # 检查必需字段
         name=$(jq -r '.name' "$file")
         version=$(jq -r '.version' "$file")

@@ -35,6 +35,12 @@ void main() async {
         final content = File(filename).readAsStringSync();
         final Map<String, dynamic> json = jsonDecode(content);
 
+        // 检查是否已过时
+        if (json['deprecated'] == true) {
+          print('跳过已过时的规则: $filename');
+          continue;
+        }
+
         // 检查必需字段
         final name = json['name'];
         final version = json['version'];
