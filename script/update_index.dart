@@ -115,21 +115,26 @@ void main() async {
     result.sort((a, b) =>
         a['name'].toString().toLowerCase().compareTo(b['name'].toString().toLowerCase()));
 
-    // 写入结果（确保末尾有换行）
+    // 写入 index.json
     final encoder = JsonEncoder.withIndent('  ');
     File('index.json').writeAsStringSync(encoder.convert(result) + '\n');
 
-    print('\nindex.json 更新完成！\n');
+    print('\nindex.json 更新完成！');
+
+    // 更新 README.md 中的规则表格
+    await updateReadmeTable(result);
+
+    print('\nREADME.md 更新完成！\n');
 
     // 检查是否有更改并提交
-    final statusResult = await Process.run('git', ['status', '--porcelain', 'index.json']);
+    final statusResult = await Process.run('git', ['status', '--porcelain', 'index.json', 'README.md']);
     if (statusResult.stdout.toString().trim().isNotEmpty) {
-      print('检测到index.json有更新，准备提交...');
+      print('检测到文件有更新，准备提交...');
       
       // 添加并提交更改
-      await Process.run('git', ['add', 'index.json']);
+      await Process.run('git', ['add', 'index.json', 'README.md']);
       final commitResult = await Process.run(
-          'git', ['commit', '-m', 'chore: update index.json']);
+          'git', ['commit', '-m', 'chore: update index.json and README.md']);
       
       if (commitResult.exitCode == 0) {
         print('Git提交成功！');
@@ -137,7 +142,7 @@ void main() async {
         print('警告: Git提交失败 (${commitResult.stderr})');
       }
     } else {
-      print('index.json 无更新，无需提交。');
+      print('文件无更新，无需提交。');
     }
   } catch (e) {
     print('错误: 处理失败 ($e)');
@@ -151,4 +156,56 @@ void main() async {
 // 辅助函数：补零
 String _pad(int number) {
   return number.toString().padLeft(2, '0');
+}
+
+// 更新 README.md 中的规则表格
+Future<void> updateReadmeTable(List<Map<String, dynamic>> rules) async {
+  final readmeFile = File('README.md');
+  if (!readmeFile.existsSync()) {
+    print('警告: README.md 不存在');
+    return;
+  }
+
+  final content = readmeFile.readAsStringSync();
+  final lines = content.split('\n');
+
+  // 找到 "## Available Rules" 的位置
+  final rulesSectionIndex = lines.indexWhere((line) => line.trim() == '## Available Rules');
+  if (rulesSectionIndex == -1) {
+    print('警告: 在 README.md 中未找到 "## Available Rules" 部分');
+    return;
+  }
+
+  // 构建新的表格内容
+  final tableLines = [
+    '',
+    '| Name | Version | Last Update |',
+    '|------|---------|-------------|',
+  ];
+
+  // 添加规则行
+  for (final rule in rules) {
+    final timestamp = rule['lastUpdate'] as int;
+    final dateTime = DateTime.fromMillisecondsSinceEpoch(timestamp);
+    final formattedDate = '${dateTime.year}-${_pad(dateTime.month)}-${_pad(dateTime.day)}';
+    
+    tableLines.add('| ${rule['name']} | ${rule['version']} | $formattedDate |');
+  }
+
+  // 找到下一个标题或文件末尾
+  var nextSectionIndex = lines.indexWhere((line) => line.startsWith('#') && line != '## Available Rules', rulesSectionIndex + 1);
+  if (nextSectionIndex == -1) {
+    nextSectionIndex = lines.length;
+  }
+
+  // 替换旧的表格内容
+  final newLines = [
+    ...lines.sublist(0, rulesSectionIndex + 1),
+    ...tableLines,
+    if (nextSectionIndex < lines.length) '',
+    ...lines.sublist(nextSectionIndex),
+  ];
+
+  // 写入文件
+  readmeFile.writeAsStringSync(newLines.join('\n'));
 } 
