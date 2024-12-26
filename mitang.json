@@ -1,4 +1,5 @@
 {
+    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "mitang",
@@ -8,7 +9,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.mitang.tv",
-    "searchURL":"https://www.mitang.tv/mitang-s/?wd=@keyword",
+    "searchURL": "https://www.mitang.tv/mitang-s/?wd=@keyword",
     "searchList": "//div[1]/div[2]/div/div/div/div[2]/ul/li/div/div",
     "searchName": "//h4/a",
     "searchResult": "//h4/a",

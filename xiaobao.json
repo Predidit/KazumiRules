@@ -1,4 +1,5 @@
 {
+    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "xiaobao",
@@ -8,7 +9,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.xiaobaotv.app",
-    "searchURL":"https://www.xiaobaotv.app/vod/search/-------------.html?wd=@keyword",
+    "searchURL": "https://www.xiaobaotv.app/vod/search/-------------.html?wd=@keyword",
     "searchList": "//div[1]/div/div/div[1]/div/div/div[2]/ul/li",
     "searchName": "//div[2]/h4/a",
     "searchResult": "//div[2]/h4/a",

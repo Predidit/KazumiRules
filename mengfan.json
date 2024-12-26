@@ -1,4 +1,5 @@
 {
+    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "mengfan",
@@ -8,7 +9,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.mfan.tv/",
-    "searchURL":"https://www.mfan.tv/search/?wd=@keyword&submit=",
+    "searchURL": "https://www.mfan.tv/search/?wd=@keyword&submit=",
     "searchList": "//div/div[2]/div/div[2]/div/div[2]/div[1]/div/div[2]/div/ul/li",
     "searchName": "//div/div/div[2]/div[1]/div/a",
     "searchResult": "//div/div/div[2]/div[1]/div/a",
