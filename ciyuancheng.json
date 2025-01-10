@@ -2,7 +2,7 @@
     "api": "2",
     "type": "anime",
     "name": "ciyuancheng",
-    "version": "1.3",
+    "version": "1.4",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
