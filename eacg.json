@@ -1,5 +1,4 @@
 {
-    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "eacg",
@@ -9,7 +8,7 @@
     "useNativePlayer": false,
     "userAgent": "",
     "baseURL": "https://eacg1.com",
-    "searchURL": "https://eacg1.com/vodsearch/-------------.html?wd=@keyword",
+    "searchURL":"https://eacg1.com/vodsearch/-------------.html?wd=@keyword",
     "searchList": "//div[3]/div/div/dl",
     "searchName": "//dd[1]/h1/a",
     "searchResult": "//dd[1]/h1/a",

@@ -1,5 +1,5 @@
+
 {
-    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "XY",
@@ -9,7 +9,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.xiyedm.com/",
-    "searchURL": "https://www.xiyedm.com/search/-------------/?os=pc&wd=@keyword",
+    "searchURL":"https://www.xiyedm.com/search/-------------/?os=pc&wd=@keyword",
     "searchList": "//div[1]/div[3]/div[2]/div[3]//a",
     "searchName": "//div/div[2]/div[1]",
     "searchResult": "",

@@ -1,5 +1,4 @@
 {
-    "deprecated": true,
     "api": "2",
     "type": "anime",
     "name": "qifun",
@@ -16,4 +15,5 @@
     "searchResult": "//div/div[2]/h6/a",
     "chapterRoads": "//div[1]/div/div/div[1]/section[3]/div[2]/div",
     "chapterResult": "//div/a"
-}
+  }
+  

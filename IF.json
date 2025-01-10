@@ -1,5 +1,4 @@
 {
-    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "IF",
@@ -9,7 +8,7 @@
     "useNativePlayer": false,
     "userAgent": "",
     "baseURL": "https://www.lffun.com/",
-    "searchURL": "https://www.lffun.com/vodsearch/-------------.html?wd=@keyword",
+    "searchURL":"https://www.lffun.com/vodsearch/-------------.html?wd=@keyword",
     "searchList": "//div[3]/div[2]//div",
     "searchName": "//div[2]/a",
     "searchResult": "//div[2]/a",
