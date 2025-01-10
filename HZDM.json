@@ -1,5 +1,5 @@
+
 {
-    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "HZDM",
@@ -9,7 +9,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.huazidm.com/",
-    "searchURL": "https://www.huazidm.com/vodsearch/-------------.html?wd=@keyword",
+    "searchURL":"https://www.huazidm.com/vodsearch/-------------.html?wd=@keyword",
     "searchList": "//div[4]/div/div[1]/div//div",
     "searchName": "//div[3]/div[1]/div[1]",
     "searchResult": "//div[3]/div[2]/a",
