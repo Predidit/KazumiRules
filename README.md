@@ -10,21 +10,6 @@ Kazumi的规则托管仓库，欢迎贡献 ^•ﻌ•^
 - 这些文件会在您的 PR 被合并后自动更新
   > These files will be automatically updated after your PR is merged
 
-## Index File Management
-The `index.json` file in this repository is automatically generated and maintained. **DO NOT edit it manually**.
-
-To update the index file, run:
-```bash
-dart run script/update_index.dart
-```
-
-The script will automatically:
-- Scan all rule files (*.json)
-- Extract essential information (name, version, etc.)
-- Record last update time
-- Sort by name
-- Commit changes
-
 | API Level | Kazumi Version   | Post Support*     | Referer Support | Legacy Parser Support†   |
 |-----------|------------------|-------------------|-----------------|--------------------------|
 | 1         | >= 1.0.0         | ❌                |❌              | ❌                      |
