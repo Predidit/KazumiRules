@@ -1,6 +1,15 @@
 # KazumiRules
 Kazumi的规则托管仓库，欢迎贡献 ^•ﻌ•^
 
+## Contributing Guidelines 贡献指南
+
+- 仅提交或更新规则文件（*.json）
+  > Only submit or update rule files (*.json)
+- 请勿手动修改 `index.json` 和 `README.md`
+  > DO NOT manually modify `index.json` or `README.md`
+- 这些文件会在您的 PR 被合并后自动更新
+  > These files will be automatically updated after your PR is merged
+
 ## Index File Management
 The `index.json` file in this repository is automatically generated and maintained. **DO NOT edit it manually**.
 
