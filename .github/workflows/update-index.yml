@@ -1,0 +1,30 @@
+name: Update Index
+env:
+  TZ: Asia/Shanghai # 设置固定时区，避免时间戳不一致
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 获取完整的git历史记录用于时间戳
+    
+    - name: Set up Dart
+      uses: dart-lang/setup-dart@v1
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Run update script
+      run: dart script/update_index.dart
+    
+    - name: Push changes
+      run: git push
