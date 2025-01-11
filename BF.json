@@ -1,4 +1,5 @@
 {
+    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "BF",
@@ -8,7 +9,7 @@
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://bilfun.cc/",
-    "searchURL":"https://bilfun.cc/bilfunsearch/-------------.html?wd=@keyword",
+    "searchURL": "https://bilfun.cc/bilfunsearch/-------------.html?wd=@keyword",
     "searchList": "//div[1]/div[2]/div/div/div[2]/div[1]//div",
     "searchName": "//div[2]/div[1]/a/strong",
     "searchResult": "//div[3]/a[2]",
