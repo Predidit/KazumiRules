@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "yhdm(skr.skr2.cc)",
+    "version": "0.1",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://skr.skr2.cc:666/",
+    "searchURL": "https://skr.skr2.cc:666/vodsearch/-------------/?wd=@keyword",
+    "searchList": "//div[2]/div[1]/div/ul[1]/li",
+    "searchName": "//div[2]/h4/a",
+    "searchResult": "//div[2]/h4/a",
+    "chapterRoads": "//div[3]/div[1]/div[2]/div[2]//div",
+    "chapterResult": "//div[3]/ul/li[1]/a"
+}
