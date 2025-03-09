@@ -1,0 +1,17 @@
+{
+    "api": "1",
+    "type": "anime",
+    "name": "1anime",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://1anime.me/",
+    "searchURL":"https://1anime.me/vodsearch/-------------.html?wd=@keyword",
+    "searchList": "//div/div[4]/div/div[1]//div",
+    "searchName": "//div[2]/div[1]/h3/a",
+    "searchResult": "//div[2]/div[1]/h3/a",
+    "chapterRoads": "//div/div[4]/div",
+    "chapterResult": "//div/div/div/a"
+}
