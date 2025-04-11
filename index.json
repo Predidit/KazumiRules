@@ -154,6 +154,13 @@
     "lastUpdate": 1727317948000
   },
   {
+    "name": "qdm",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1744378473000
+  },
+  {
     "name": "WEDM",
     "version": "1.1",
     "useNativePlayer": true,
