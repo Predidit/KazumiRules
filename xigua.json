@@ -1,0 +1,17 @@
+{
+    "api": "3",
+    "type": "anime",
+    "name": "xigua",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://cn.xgcartoon.com/",
+    "searchURL": "https://cn.xgcartoon.com/search?q=@keyword",
+    "searchList": "//div/div/div/div[2]/div[2]/div",
+    "searchName": "//a/div[2]/div[2]",
+    "searchResult": "//a",
+    "chapterRoads": "//div/div/div/div[2]/div[1]/div[2]/div/div[8]/div[2]",
+    "chapterResult": "//div/a"
+}
