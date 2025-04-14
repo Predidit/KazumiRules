@@ -1,5 +1,5 @@
 {
-    "api": "1",
+    "api": "3",
     "type": "anime",
     "name": "libvio",
     "version": "0.1",
@@ -7,6 +7,7 @@
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
+    "referer": "https://www.libvio.fun/",
     "baseURL": "https://www.libvio.fun/",
     "searchURL":"https://www.libvio.fun/search/-------------.html?wd=@keyword",
     "searchList": "//div[1]/ul/li/div",
