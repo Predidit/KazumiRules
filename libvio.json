@@ -2,7 +2,7 @@
     "api": "3",
     "type": "anime",
     "name": "libvio",
-    "version": "0.1",
+    "version": "0.2",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
