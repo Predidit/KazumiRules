@@ -1,18 +1,17 @@
 {
-    "deprecated": true,
-    "api": "1",
+    "api": "4",
     "type": "anime",
     "name": "skr",
-    "version": "0.1",
+    "version": "0.2",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.skr2.cc/",
     "searchURL": "https://www.skr2.cc/vodsearch/-------------/?wd=@keyword",
-    "searchList": "//div[2]/div[1]/div/ul[1]/li",
-    "searchName": "//div[2]/h4/a",
-    "searchResult": "//div[2]/h4/a",
-    "chapterRoads": "//div[3]/div[1]/div[2]/div[2]//div",
-    "chapterResult": "//div[3]/ul/li[1]/a"
+    "searchList": "//div[2]/div[1]/div/ul/li",
+    "searchName": "//div[2]/h4/a/text()",
+    "searchResult": "//div[2]/div/a",
+    "chapterRoads": "//div[3]/div[1]/div[2]/div[2]/div",
+    "chapterResult": "//div[3]/ul/li/a"
 }
