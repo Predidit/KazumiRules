@@ -1,6 +1,6 @@
 {
     "api": "1",
-    "type": "1",
+    "type": "anime",
     "name": "Fantuan",
     "version": "1.0",
     "muliSources": true,
@@ -11,10 +11,10 @@
     "userAgent": "",
     "baseURL": "https://acgfta.com/",
     "searchURL": "https://acgfta.com/search.html?wd=@keyword",
-    "searchList": "//div[contains(@class, \"anime-card\")]",
+    "searchList": "//div[contains(@class, "anime-card")]",
     "searchName": "//a",
     "searchResult": "//a",
-    "chapterRoads": "//div[contains(@class, \"anime-episode\")]",
-    "chapterResult": "//a[contains(@class, \"btn-episode\")]",
+    "chapterRoads": "//div[contains(@class, "anime-episode")]",
+    "chapterResult": "//a[contains(@class, "btn-episode")]",
     "referer": ""
 }
