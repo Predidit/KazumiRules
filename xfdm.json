@@ -11,10 +11,10 @@
     "userAgent": "",
     "baseURL": "https://dm1.xfdm.pro/",
     "searchURL": "https://dm1.xfdm.pro/search.html?wd=@keyword",
-    "searchList": "//div[contains(@class, \"search-list\")]",
+    "searchList": "//div[contains(@class, 'search-list')]",
     "searchName": "//h3",
     "searchResult": "//a[1]",
-    "chapterRoads": "//ul[contains(@class, \"anthology-list-play\")]",
+    "chapterRoads": "//ul[contains(@class, 'anthology-list-play')]",
     "chapterResult": "//li/a",
     "referer": ""
 }
