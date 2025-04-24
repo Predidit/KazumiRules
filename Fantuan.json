@@ -7,7 +7,7 @@
     "useWebview": true,
     "useNativePlayer": true,
     "usePost": false,
-    "useLegacyParser": false,
+    "useLegacyParser": true,
     "userAgent": "",
     "baseURL": "https://acgfta.com/",
     "searchURL": "https://acgfta.com/search.html?wd=@keyword",
