@@ -1,0 +1,18 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "ffdm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "useLegacyParser": true,
+    "baseURL": "https://www.ffdm.cc/",
+    "searchURL": "https://www.ffdm.cc/search.html?wd=@keyword",
+    "searchList": "//li[@class='list-item']",
+    "searchName": "//h3/a/text()",
+    "searchResult": "//h3/a",
+    "chapterRoads": "//ul[contains(@class, 'hl-plays-list')]",
+    "chapterResult": "//li/a"
+}
