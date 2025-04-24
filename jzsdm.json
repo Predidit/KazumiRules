@@ -1,0 +1,18 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "jzsdm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "useLegacyParser": false,
+    "userAgent": "",
+    "baseURL": "https://www.jzsdm1.com/",
+    "searchURL": "https://www.jzsdm1.com/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div[contains(@class, 'search-box')]",
+    "searchName": "//div[3]/div[1]/div[1]",
+    "searchResult": "//div[3]/div[2]/a[1]",
+    "chapterRoads": "//ul[contains(@class, 'anthology-list-play')]",
+    "chapterResult": "//li/a"
+}
