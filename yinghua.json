@@ -1,18 +1,18 @@
 {
-    "deprecated": true,
-    "api": "1",
+    "api": "4",
     "type": "anime",
     "name": "yinghua",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
-    "baseURL": "https://yinghua.us/",
-    "searchURL": "https://yinghua.us/vs.html?wd=@keyword&submit=",
-    "searchList": "//div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul[1]/li",
-    "searchName": "//div/div/div[2]/div[1]/a",
-    "searchResult": "//div/div/div[2]/div[1]/a",
-    "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div",
-    "chapterResult": "//div/div/ul/li/a"
+    "useLegacyParser": true,
+    "baseURL": "http://www.iyinghua.com/",
+    "searchURL": "http://www.iyinghua.com/search/@keyword/",
+    "searchList": "//div[4]/div[2]/div/ul/li",
+    "searchName": "//h2/a",
+    "searchResult": "//h2/a",
+    "chapterRoads": "//div[2]/div[2]/div[4]/div/div/ul",
+    "chapterResult": "//li/a"
 }
