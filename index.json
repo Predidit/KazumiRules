@@ -49,6 +49,13 @@
     "lastUpdate": 1745462300000
   },
   {
+    "name": "ffdm",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1745466849000
+  },
+  {
     "name": "FQDM",
     "version": "1.1",
     "useNativePlayer": true,
