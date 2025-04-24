@@ -141,10 +141,10 @@
   },
   {
     "name": "xfdm",
-    "version": "1.4",
+    "version": "1.5",
     "useNativePlayer": true,
     "author": "",
-    "lastUpdate": 1745376020000
+    "lastUpdate": 1745461565000
   },
   {
     "name": "xigua",
