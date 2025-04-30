@@ -147,6 +147,13 @@
     "lastUpdate": 1744378473000
   },
   {
+    "name": "qimi",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1746013728000
+  },
+  {
     "name": "WEDM",
     "version": "1.1",
     "useNativePlayer": true,
