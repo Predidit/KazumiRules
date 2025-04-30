@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "qimi",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.qimiqimi.net/",
+    "searchURL": "https://www.qimiqimi.net/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div[5]/ul/li",
+    "searchName": "//div/h2/a",
+    "searchResult": "//div/h2/a",
+    "chapterRoads": "//div[5]",
+    "chapterResult": "//div[2]/a"
+}
