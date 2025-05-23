@@ -42,6 +42,13 @@
     "lastUpdate": 1736530303000
   },
   {
+    "name": "cyfz",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1747983159000
+  },
+  {
     "name": "dlma",
     "version": "1.0",
     "useNativePlayer": true,
