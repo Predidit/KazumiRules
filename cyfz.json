@@ -1,0 +1,18 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "cyfz",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "useLegacyParser": false,
+    "baseURL": "https://www.cyfz.vip/",
+    "searchURL": "https://www.cyfz.vip/search.html?wd=@keyword",
+    "searchList": "//div[4]/div/div[1]/div/div",
+    "searchName": "//div[3]/div[1]/div[1]/a",
+    "searchResult": "//div[3]/div[1]/div[1]/a",
+    "chapterRoads": "//div[5]/div[2]/div[2]/div/div/ul",
+    "chapterResult": "//li/a"
+}
