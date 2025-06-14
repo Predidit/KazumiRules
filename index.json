@@ -77,6 +77,13 @@
     "lastUpdate": 1745462585000
   },
   {
+    "name": "k8dm",
+    "version": "0.1",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1749874545000
+  },
+  {
     "name": "libvio",
     "version": "0.2",
     "useNativePlayer": true,
