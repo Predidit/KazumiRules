@@ -1,9 +1,8 @@
 {
-  "deprecated": true,
-  "api": "1",
+  "api": "4",
   "type": "anime",
   "name": "yishijie",
-  "version": "0.1",
+  "version": "1.0",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
