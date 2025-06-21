@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "Ylsp",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://ylsp.tv/",
+    "searchURL": "https://ylsp.tv/vodsearch/-------------/?wd=@keyword",
+    "searchList": "//div[@class='module-card-item-title']",
+    "searchName": "//a/strong",
+    "searchResult": "//a",
+    "chapterRoads": "//*[@id="panel1"]/div/div",
+    "chapterResult": "//a"
+}
