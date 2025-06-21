@@ -1,7 +1,7 @@
 {
     "api": "4",
     "type": "anime",
-    "name": "Ylsp",
+    "name": "ylsp",
     "version": "1.0",
     "muliSources": true,
     "useWebview": true,
