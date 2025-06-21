@@ -12,6 +12,6 @@
     "searchList": "//div[@class='module-card-item-title']",
     "searchName": "//a/strong",
     "searchResult": "//a",
-    "chapterRoads": "//*[@id="panel1"]/div/div",
+    "chapterRoads": "//*[@id='panel1']/div/div",
     "chapterResult": "//a"
 }
