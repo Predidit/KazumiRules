@@ -1,5 +1,4 @@
 {
-    "deprecated": true,
     "api": "1",
     "type": "anime",
     "name": "LMM",
@@ -8,8 +7,8 @@
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
-    "baseURL": "https://www.lmm96.com/",
-    "searchURL":"https://www.lmm96.com/vod/search.html?wd=@keyword",
+    "baseURL": "https://www.lmm97.com/",
+    "searchURL":"https://www.lmm97.com/vod/search.html?wd=@keyword",
     "searchList": "//div[1]/div/div/section/div//div",
     "searchName": "//div/div[2]/h6/a",
     "searchResult": "//div/div[2]/h6/a",
