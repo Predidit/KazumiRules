@@ -1,4 +1,5 @@
 {
+    "deprecated": true,
     "api": "2",
     "type": "1",
     "name": "dms",
