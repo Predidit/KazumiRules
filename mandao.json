@@ -14,5 +14,5 @@
     "searchName": "//a/div[2]/p",
     "searchResult": "//a",
     "chapterRoads": "//div[3]/div[2]//div",
-    "chapterResult": "//*[@id="stab_1_71"]/ul/li/a"
+    "chapterResult": "//*[@id='stab_1_71']/ul/li/a"
 }
