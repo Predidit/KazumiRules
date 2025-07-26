@@ -1,9 +1,9 @@
 
 {
-    "api": "1",
+    "api": "4",
     "type": "anime",
-    "name": "WEDM",
-    "version": "1.1",
+    "name": "WYDM",
+    "version": "1.2",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -13,6 +13,6 @@
     "searchList": "//div[1]/div/div[1]/div/div/div[2]/ul/li",
     "searchName": "//div[2]/h3/a",
     "searchResult": "//div[2]/h3/a",
-    "chapterRoads": "//div[1]/div/div[1]/div/div/div[2]/ul",
+    "chapterRoads": "//div[@class='stui-pannel-box b playlist mb']",
     "chapterResult": "//li/a"
 }
