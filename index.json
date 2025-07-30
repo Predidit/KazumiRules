@@ -64,10 +64,10 @@
   },
   {
     "name": "libvio",
-    "version": "0.2",
+    "version": "0.3",
     "useNativePlayer": true,
     "author": "",
-    "lastUpdate": 1744606281000
+    "lastUpdate": 1753867301000
   },
   {
     "name": "mandao",
