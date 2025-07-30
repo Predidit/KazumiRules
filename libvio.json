@@ -7,11 +7,12 @@
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
+    "referer": "https://www.libvio.cc/",
     "baseURL": "https://www.libvio.cc/",
     "searchURL":"https://www.libvio.cc/search/-------------.html?wd=@keyword&submit=",
     "searchList": "//div[1]/ul//li",
     "searchName": "//div/div/h4/a",
     "searchResult": "//div/div/h4/a",
-    "chapterRoads": "//div[1]/div[2]/div/div/div/div[2]/ul",
+    "chapterRoads": "//div[1]/div[2]/div/div/div//div",
     "chapterResult": "//li/a"
 }
