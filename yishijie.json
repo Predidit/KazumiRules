@@ -1,18 +1,17 @@
 {
-  "deprecated": true,
-  "api": "1",
+  "api": "4",
   "type": "anime",
   "name": "yishijie",
-  "version": "0.1",
+  "version": "1.1",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
   "userAgent": "",
   "baseURL": "https://www.dmmiku.com/",
-  "searchURL":"https://www.dmmiku.com/index.php/vod/search.html?wd=@keyword",
-  "searchList": "//div[2]/div[2]/div[1]/ul/li",
+  "searchURL":"https://www.dmmiku.com/index.php/vod/search.html?wd=@keyword&submit=",
+  "searchList": "//div[2]/div[2]/div[1]/ul//li",
   "searchName": "//div[2]/h4/a",
-  "searchResult": "//div[2]/h4/a",
-  "chapterRoads": "//div[3]/div[1]/div[2]/div[2]/div[2]/div[3]/ul",
-  "chapterResult": "//a"
+  "searchResult": "//div[2]/div/a",
+  "chapterRoads": "//div[@class='playlist_full']",
+  "chapterResult": "//li/a"
 }
