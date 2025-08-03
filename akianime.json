@@ -11,7 +11,7 @@
     "baseURL": "https://www.akianime.cc/",
     "searchURL": "https://www.akianime.cc/bgmsearch/-------------.html?wd=@keyword",
     "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
-    "searchName": //div/div[2]/a/h3",
+    "searchName": "//div/div[2]/a/h3",
     "searchResult": "//div/div[2]/div[5]/div[1]/a   ",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
     "chapterResult": "//li/a"
