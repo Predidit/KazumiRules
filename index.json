@@ -21,6 +21,13 @@
     "lastUpdate": 1752887798000
   },
   {
+    "name": "akianime",
+    "version": "1.3",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1754214043000
+  },
+  {
     "name": "ant",
     "version": "0.0.2",
     "useNativePlayer": true,
