@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "tt776b",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.tt776b.com/",
+    "searchURL": "https://www.tt776b.com/search/-------------.html?wd=@keyword&submit=",
+    "searchList": "//div[1]/div/div/div/div/div[2]/ul/li",
+    "searchName": "//div/h4/a",
+    "searchResult": "//div/a",
+    "chapterRoads": "//div[1]/div/div[2]/div[3]/div/div[2]/div",
+    "chapterResult": "//a"
+}
