@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "88dmw",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.88dmw.com/",
+    "searchURL": "https://www.88dmw.com/index.php?m=vod-search-wd-@keyword",
+    "searchList": "//div[2]/div[1]/div/div[@class='cn_box2']",
+    "searchName": "//ul/li[1]/a",
+    "searchResult": "//div/div/a",
+    "chapterRoads": "//div[3]/div[5]/div[1]/div/div/div/div/ul",
+    "chapterResult": "//a"
+}
