@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "zkk79",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.zkk79.com/",
+    "searchURL": "https://www.zkk79.com/search/-------------.html?wd=@keyword",
+    "searchList": "//div[1]/div/div[1]/div/div/div[2]/ul//li",
+    "searchName": "//div[2]/h4/a",
+    "searchResult": "//div[2]/p[5]/a[2]",
+    "chapterRoads": "//div[2]/strong/div[2]/div[1]/div[1]/div/div[2]//div",
+    "chapterResult": "//ul/li/a"
+}
