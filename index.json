@@ -35,6 +35,13 @@
     "lastUpdate": 1754214043000
   },
   {
+    "name": "anime7",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "author": "",
+    "lastUpdate": 1758207577000
+  },
+  {
     "name": "ant",
     "version": "0.0.2",
     "useNativePlayer": true,
