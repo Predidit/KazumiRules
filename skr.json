@@ -9,7 +9,7 @@
     "userAgent": "",
     "baseURL": "https://skr.skr1.cc:666/",
     "searchURL": "https://skr.skr1.cc:666/vodsearch/-------------/?wd=@keyword",
-    "searchList": "//div[2]/div[1]/div/ul//li",
+    "searchList": "//div[2]/div[1]/div[1]/ul//li",
     "searchName": "//div[2]/h4/a/text()",
     "searchResult": "//div[2]/div/a",
     "chapterRoads": "//div[@id='playlistbox']",
