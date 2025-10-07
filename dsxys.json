@@ -1,0 +1,18 @@
+{
+    "deprecated": true,
+    "api": "4",
+    "type": "anime",
+    "name": "dsxys",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://xiafanyy.com/",
+    "searchURL":"https://xiafanyy.com/chxf/-------------.html?wd=@keyword&submit=",
+    "searchList": "//div[1]/div/div[1]/div/div/div[2]/ul//li",
+    "searchName": "//div[2]/h3/a",
+    "searchResult": "//div[2]/p[4]/a",
+    "chapterRoads": "//div[@class='stui-pannel stui-pannel-bg clearfix']",
+    "chapterResult": "//li/a"
+}
