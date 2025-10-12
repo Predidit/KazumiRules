@@ -2,7 +2,7 @@
     "api": "3",
     "type": "anime",
     "name": "giriGiriLove",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -10,9 +10,9 @@
     "userAgent": "",
     "baseURL": "https://bgm.girigirilove.com",
     "searchURL":"https://bgm.girigirilove.com/search/-------------/?wd=@keyword",
-    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
-    "searchName": "//div/div[2]/a",
-    "searchResult": "//div/div[2]/a",
+    "searchList": "//div[@class='public-list-box search-box flex rel']",
+    "searchName": "//div[3]/div[1]/div[1]",
+    "searchResult": "//div[3]/div[2]/a[1]",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
     "chapterResult": "//li/a"
 }
