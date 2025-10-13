@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "gugu3",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.gugu3.com/",
+    "searchURL": "https://www.gugu3.com/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div[4]/div/div[1]/div//div",
+    "searchName": "//div[3]/div[1]/div[1]",
+    "searchResult": "//div[2]/a",
+    "chapterRoads": "//div[6]/div[2]/div[2]//div",
+    "chapterResult": "//div/ul/li/a"
+}
