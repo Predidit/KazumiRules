@@ -2,16 +2,16 @@
     "api": "1",
     "type": "anime",
     "name": "MXdm",
-    "version": "2.0",
+    "version": "2.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
-    "baseURL": "https://www.mxdm6.com/",
-    "searchURL":"https://www.mxdm6.com/search/-------------.html?wd=@keyword",
+    "baseURL": "https://www.mxdm.xyz/",
+    "searchURL":"https://www.mxdm.xyz/search/-------------.html?wd=@keyword",
     "searchList": "//main/div/div[2]/div/div//div",
     "searchName": "//div[2]/div[1]/h3/a",
     "searchResult": "//div[2]/div[1]/h3/a",
-    "chapterRoads": "//main/div/div[2]//div",
-    "chapterResult": "//div[3]/div//a"
+    "chapterRoads": "//div[@class='scroll-content']",
+    "chapterResult": "//a"
 }

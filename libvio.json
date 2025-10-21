@@ -1,18 +1,18 @@
 {
-    "api": "3",
+    "api": "4",
     "type": "anime",
     "name": "libvio",
-    "version": "0.2",
+    "version": "0.3",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
-    "referer": "https://www.libvio.fun/",
-    "baseURL": "https://www.libvio.fun/",
-    "searchURL":"https://www.libvio.fun/search/-------------.html?wd=@keyword",
-    "searchList": "//div[1]/ul/li/div",
-    "searchName": "//div/h4/a",
-    "searchResult": "//a",
-    "chapterRoads": "//div[1]/div[2]/div/div/div/div",
-    "chapterResult": "//ul/li/a"
+    "referer": "https://www.libvio.cc/",
+    "baseURL": "https://www.libvio.cc/",
+    "searchURL":"https://www.libvio.cc/search/-------------.html?wd=@keyword&submit=",
+    "searchList": "//div[1]/ul//li",
+    "searchName": "//div/div/h4/a",
+    "searchResult": "//div/div/h4/a",
+    "chapterRoads": "//div[1]/div[2]/div/div/div//div",
+    "chapterResult": "//li/a"
 }

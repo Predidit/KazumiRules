@@ -1,19 +1,17 @@
 {
-    "deprecated": true,
     "api": "4",
     "type": "anime",
     "name": "skr",
-    "version": "0.4",
+    "version": "0.5",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
-    "useLegacyParser": true,
     "userAgent": "",
-    "baseURL": "https://www.maigo.cc/",
-    "searchURL": "https://www.maigo.cc/vodsearch/-------------/?wd=@keyword",
-    "searchList": "//div[2]/div[1]/div/ul/li",
+    "baseURL": "https://skr.skr1.cc:666/",
+    "searchURL": "https://skr.skr1.cc:666/vodsearch/-------------/?wd=@keyword",
+    "searchList": "//div[2]/div[1]/div[1]/ul//li",
     "searchName": "//div[2]/h4/a/text()",
     "searchResult": "//div[2]/div/a",
-    "chapterRoads": "//div[3]/div[1]/div[2]/div[2]/div",
-    "chapterResult": "//div[3]/ul/li/a"
+    "chapterRoads": "//div[@id='playlistbox']",
+    "chapterResult": "//li/a"
 }

@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "hfkzm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://hfkzm.com/",
+    "searchURL": "https://hfkzm.com/search.php?searchword=@keyword",
+    "searchList": "//div[3]/div/div[2]/ul//li",
+    "searchName": "//a[2]",
+    "searchResult": "//a[2]",
+    "chapterRoads": "//div[4]/div[1]/div[3]/div[1]/div[2]/div/div[2]//div",
+    "chapterResult": "//ul/li/a"
+}

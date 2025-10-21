@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "qkan9",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.qkan9.com/",
+    "searchURL": "https://www.qkan9.com/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div[3]/div/div/dl",
+    "searchName": "//dd/h1/a",
+    "searchResult": "//dt/a",
+    "chapterRoads": "//div[3]/div/div[2]/div/div[1]/div[2]/div/ul[2]",
+    "chapterResult": "//a"
+}

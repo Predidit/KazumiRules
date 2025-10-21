@@ -1,0 +1,18 @@
+{
+    "deprecated": true,
+    "api": "4",
+    "type": "anime",
+    "name": "moefan",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "https://www.moefan.cc/",
+    "searchURL":"https://www.moefan.cc/index.php/vod/search.html?wd=@keyword",
+    "searchList": "//div/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul//li",
+    "searchName": "//div/div/div[2]/div[1]/a",
+    "searchResult": "//div/div/div[2]/div[2]/a",
+    "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]//div",
+    "chapterResult": "//div/div/ul/li/a"
+}

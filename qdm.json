@@ -1,17 +1,18 @@
 {
-    "api": "1",
+    "api": "4",
     "type": "anime",
     "name": "qdm",
-    "version": "1.0",
+    "version": "1.3",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
-    "baseURL": "https://www.qdm88.com/",
-    "searchURL": "https://www.qdm88.com/search/-------------.html?wd=@keyword&submit=",
-    "searchList": "//div[1]/div/div/div/div/div[2]/ul/li/div[2]",
-    "searchName": "//h4/a",
-    "searchResult": "//h4/a",
-    "chapterRoads": "//div[1]/div/div[3]/div[3]/div/div[2]/div[1]",
-    "chapterResult": "//ul/li/a"
+    "baseURL": "https://www.qdm8.cc/",
+    "searchURL": "https://www.qdm8.cc/index.php?s=vod-search-name&wd=@keyword",
+    "searchList": "//section/div/div/div/div/div//article",
+    "searchName": "//a/h2",
+    "searchResult": "//a",
+    "chapterRoads": "//section/div[3]/div/article//div",
+    "chapterResult": "//li/a"
 }
+
