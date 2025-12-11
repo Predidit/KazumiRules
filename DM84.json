@@ -1,6 +1,5 @@
 {
-    "deprecated": true,
-    "api": "1",
+    "api": "5",
     "type": "anime",
     "name": "DM84",
     "version": "1.2",
@@ -8,6 +7,7 @@
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
+    "adBlocker": true,
     "baseURL": "https://m.dmxixi.com/",
     "searchURL":"https://m.dmxixi.com/s----------.html?wd=@keyword",
     "searchList": "//div/div[3]/ul/li",
