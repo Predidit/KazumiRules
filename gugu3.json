@@ -1,17 +1,18 @@
 {
-    "api": "4",
+    "api": "5",
     "type": "anime",
     "name": "gugu3",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
+    "useLegacyParser": false,
     "userAgent": "",
     "baseURL": "https://www.gugu3.com/",
     "searchURL": "https://www.gugu3.com/index.php/vod/search.html?wd=@keyword",
-    "searchList": "//div[4]/div/div[1]/div//div",
-    "searchName": "//div[3]/div[1]/div[1]",
-    "searchResult": "//div[2]/a",
-    "chapterRoads": "//div[6]/div[2]/div[2]//div",
-    "chapterResult": "//div/ul/li/a"
+    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
+    "searchName": "//div/div[2]/a/h3",
+    "searchResult": "//div/div[2]/div[5]/div/a",
+    "chapterRoads": "//ul[@class='anthology-list-play size']",
+    "chapterResult": "//li/a"
 }
