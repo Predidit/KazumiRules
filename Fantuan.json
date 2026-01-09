@@ -12,10 +12,10 @@
     "userAgent": "",
     "baseURL": "https://acgfta.com/",
     "searchURL": "https://acgfta.com/search.html?wd=@keyword",
-    "searchList": "//div[contains(@class, 'anime-card')]",
-    "searchName": "//a",
-    "searchResult": "//a",
-    "chapterRoads": "//div[contains(@class, 'anime-episode')]",
-    "chapterResult": "//a[contains(@class, 'btn-episode')]",
+    "searchList": "//main/div/div[3]/div//div",
+    "searchName": "/a/text()",
+    "searchResult": "/a",
+    "chapterRoads": "//div[5]/div/div/div/div/div",
+    "chapterResult": "/a",
     "referer": ""
 }
