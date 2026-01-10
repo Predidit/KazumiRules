@@ -1,21 +1,17 @@
 {
-    "deprecated": true,
     "api": "4",
     "type": "anime",
     "name": "Fantuan",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
-    "usePost": false,
-    "useLegacyParser": true,
     "userAgent": "",
     "baseURL": "https://acgfta.com/",
     "searchURL": "https://acgfta.com/search.html?wd=@keyword",
-    "searchList": "//div[contains(@class, 'anime-card')]",
-    "searchName": "//a",
-    "searchResult": "//a",
-    "chapterRoads": "//div[contains(@class, 'anime-episode')]",
-    "chapterResult": "//a[contains(@class, 'btn-episode')]",
-    "referer": ""
+    "searchList": "//main/div/div[3]/div//div",
+    "searchName": "/a/text()",
+    "searchResult": "/a",
+    "chapterRoads": "//div[5]/div/div/div/div/div",
+    "chapterResult": "/a"
 }
