@@ -1,0 +1,18 @@
+{
+    "api": "5",
+    "type": "anime",
+    "name": "baimao",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "adBlocker": true,
+    "baseURL": "https://www.baimaodm.com/",
+    "searchURL":"https://www.baimaodm.com/s_all?ex=1&kw=@keyword",
+    "searchList": "//div[4]/div[2]/div[1]/ul/li",
+    "searchName": "//h2/a",
+    "searchResult": "//h2/a",
+    "chapterRoads": "//div[2]/div[2]/div[8]/div/div/ul",
+    "chapterResult": "//li/a"
+}
