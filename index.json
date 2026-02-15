@@ -43,10 +43,10 @@
   },
   {
     "name": "libvio",
-    "version": "0.3",
+    "version": "0.4",
     "useNativePlayer": true,
     "author": "",
-    "lastUpdate": 1753869070000
+    "lastUpdate": 1771126882000
   },
   {
     "name": "MXdm",
