@@ -1,0 +1,20 @@
+{
+    "api": "5",
+    "type": "anime",
+    "name": "gpjda",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": true,
+    "useLegacyParser": false,
+    "userAgent": "",
+    "adBlocker": true,
+    "baseURL": "https://www.gpjda.com/",
+    "searchURL": "https://www.gpjda.com/search.php?searchword=@keyword",
+    "searchList": "//div[1]/div/div[2]/ul[1]/li",
+    "searchName": "//h4/a",
+    "searchResult": "//h4/a",
+    "chapterRoads": "//ul[@class='stui-content__playlist playlink clearfix']",
+    "chapterResult": "//li/a"
+}
