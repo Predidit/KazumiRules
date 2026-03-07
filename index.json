@@ -3,6 +3,7 @@
     "name": "7sefun",
     "version": "1.2",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1770510516000
   },
@@ -10,6 +11,7 @@
     "name": "aafun",
     "version": "1.0",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1746012027000
   },
@@ -17,6 +19,7 @@
     "name": "AGE",
     "version": "1.5",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1758092260000
   },
@@ -24,6 +27,7 @@
     "name": "baimao",
     "version": "1.0",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1769573721000
   },
@@ -31,6 +35,7 @@
     "name": "DM84",
     "version": "1.4",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1770015775000
   },
@@ -38,6 +43,7 @@
     "name": "Fantuan",
     "version": "2.0",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1772376549000
   },
@@ -45,6 +51,7 @@
     "name": "gpjda",
     "version": "1.0",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1771771049000
   },
@@ -52,6 +59,7 @@
     "name": "gugu3",
     "version": "1.2",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1765973347000
   },
@@ -59,6 +67,7 @@
     "name": "libvio",
     "version": "0.4",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1771126882000
   },
@@ -66,6 +75,7 @@
     "name": "mwcy",
     "version": "1.2",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1771294191000
   },
@@ -73,6 +83,7 @@
     "name": "MXdm",
     "version": "2.3",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1771938941000
   },
@@ -80,6 +91,7 @@
     "name": "omofun03",
     "version": "1.0",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1760342977000
   },
@@ -87,6 +99,7 @@
     "name": "WYDM",
     "version": "1.2",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1753549178000
   },
@@ -94,6 +107,7 @@
     "name": "xfdm",
     "version": "2.0",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
     "author": "",
     "lastUpdate": 1772874345000
   },
@@ -101,6 +115,7 @@
     "name": "yishijie",
     "version": "1.1",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1754219208000
   },
@@ -108,6 +123,7 @@
     "name": "ylsp",
     "version": "1.1",
     "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1759660829000
   }
