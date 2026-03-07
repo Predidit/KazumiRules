@@ -80,6 +80,14 @@
     "lastUpdate": 1771126882000
   },
   {
+    "name": "LMM",
+    "version": "2.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "",
+    "lastUpdate": 1772876563000
+  },
+  {
     "name": "mwcy",
     "version": "1.2",
     "useNativePlayer": true,
