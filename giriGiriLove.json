@@ -2,7 +2,7 @@
     "api": "6",
     "type": "anime",
     "name": "giriGiriLove",
-    "version": "1.0",
+    "version": "2.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
