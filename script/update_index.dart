@@ -87,11 +87,17 @@ void main() async {
           timestamp = DateTime.now().millisecondsSinceEpoch;
         }
 
+        // 从 antiCrawlerConfig.enabled 提取 antiCrawlerEnabled
+        final antiCrawlerConfig = json['antiCrawlerConfig'];
+        final antiCrawlerEnabled = antiCrawlerConfig is Map &&
+            antiCrawlerConfig['enabled'] == true;
+
         // 构建条目
         final entry = {
           'name': name,
           'version': version,
           'useNativePlayer': useNativePlayer,
+          'antiCrawlerEnabled': antiCrawlerEnabled,
           'author': json['author'] ?? '',
           'lastUpdate': timestamp,
         };
