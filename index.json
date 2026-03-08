@@ -128,6 +128,14 @@
     "lastUpdate": 1772874345000
   },
   {
+    "name": "xfdmneo",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1772963366000
+  },
+  {
     "name": "yishijie",
     "version": "1.1",
     "useNativePlayer": true,
