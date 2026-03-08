@@ -1,0 +1,21 @@
+{
+    "api": "6",
+    "type": "anime",
+    "name": "xfdmneo",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": true,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://dm1.xfdm.pro/",
+    "searchURL": "https://dm1.xfdm.pro/search.html?wd=@keyword",
+    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
+    "searchName": "//div/div[2]/a/h3",
+    "searchResult": "//div/div[2]/a",
+    "chapterRoads": "//ul[@class='anthology-list-play size']",
+    "chapterResult": "//li/a",
+    "referer": ""
+}
