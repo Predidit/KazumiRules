@@ -1,19 +1,28 @@
 {
-    "deprecated": true,
-    "api": "4",
+    "api": "6",
     "type": "anime",
     "name": "aowu",
-    "version": "1.0",
+    "version": "2.0",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
+    "usePost": false,
     "useLegacyParser": false,
+    "adBlocker": false,
     "userAgent": "",
     "baseURL": "https://www.aowu.tv/",
-    "searchURL": "https://www.aowu.tv/search/-------------.html?wd=@keyword",
+    "searchURL": "https://www.aowu.tv/vods/?wd=@keyword",
     "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
     "searchName": "//div/div[2]/a/h3",
     "searchResult": "//div/div[2]/div[5]/div/a",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
-    "chapterResult": "//li/a"
+    "chapterResult": "//li/a",
+    "referer": "",
+    "antiCrawlerConfig": {
+        "enabled": true,
+        "captchaType": 1,
+        "captchaImage": "//img[@class='ds-verify-img']",
+        "captchaInput": "//input[@name='verify']",
+        "captchaButton": "//button[@class='button verify-submit top20']"
+    }
 }
