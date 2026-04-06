@@ -1,18 +1,17 @@
 {
-    "deprecated": true,
     "api": "4",
     "type": "anime",
     "name": "mwcy",
-    "version": "1.1",
+    "version": "1.2",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
     "baseURL": "https://www.mwcy.net/",
     "searchURL": "https://www.mwcy.net/search.html?wd=@keyword",
-    "searchList": "//div[4]/div/div[1]/div/div",
-    "searchName": "//div[3]/div[1]/div[1]",
-    "searchResult": "//div[3]/div[2]/a[1]",
-    "chapterRoads": "//div[5]/div[2]/div[2]//div",
-    "chapterResult": "//div/ul/li/a"
+    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
+    "searchName": "//div/div[2]/a",
+    "searchResult": "//div/div[2]/a",
+    "chapterRoads": "//ul[@class='anthology-list-play size']",
+    "chapterResult": "//li/a"
 }

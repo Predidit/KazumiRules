@@ -1,0 +1,18 @@
+{
+    "deprecated": true,
+    "api": "4",
+    "type": "anime",
+    "name": "bobodm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "",
+    "baseURL": "http://www.bobodm.com/",
+    "searchURL": "http://www.bobodm.com/vodsearch/@keyword-------------.html",
+    "searchList": "//div[@class='leo-detail-wrap leo-po-re leo-col-12']",
+    "searchName": "//h1[@class='leo-color-a leo-fs-l leo-ellipsis-1']",
+    "searchResult": "//div[3]/div/a[1]",
+    "chapterRoads": "//div[1]/section[2]/div[2]/div[2]//div",
+    "chapterResult": "//li/a"
+}

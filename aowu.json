@@ -1,8 +1,9 @@
 {
+    "deprecated": true,
     "api": "6",
     "type": "anime",
-    "name": "giriGiriLove",
-    "version": "2.1",
+    "name": "aowu",
+    "version": "2.0",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -10,11 +11,11 @@
     "useLegacyParser": false,
     "adBlocker": false,
     "userAgent": "",
-    "baseURL": "https://anime.girigirilove.top",
-    "searchURL": "https://anime.girigirilove.top/search/-------------/?wd=@keyword",
+    "baseURL": "https://www.aowu.tv/",
+    "searchURL": "https://www.aowu.tv/vods/?wd=@keyword",
     "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
-    "searchName": "//div/div[2]/a",
-    "searchResult": "//div/div[2]/a",
+    "searchName": "//div/div[2]/a/h3",
+    "searchResult": "//div/div[2]/div[5]/div/a",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
     "chapterResult": "//li/a",
     "referer": "",
@@ -22,7 +23,7 @@
         "enabled": true,
         "captchaType": 1,
         "captchaImage": "//img[@class='ds-verify-img']",
-        "captchaInput": "//div[4]/div[2]/div/div/input",
-        "captchaButton": "//div[4]/div[2]/button"
+        "captchaInput": "//input[@name='verify']",
+        "captchaButton": "//button[@class='button verify-submit top20']"
     }
 }

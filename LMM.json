@@ -1,18 +1,28 @@
 {
-    "deprecated": true,
-    "api": "1",
+    "api": "6",
     "type": "anime",
     "name": "LMM",
-    "version": "1.3",
+    "version": "2.0",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
     "userAgent": "",
-    "baseURL": "https://www.lmm97.com/",
-    "searchURL":"https://www.lmm97.com/vod/search.html?wd=@keyword",
+    "baseURL": "https://www.lmm85.com/",
+    "searchURL": "https://www.lmm85.com/vod/search.html?wd=@keyword",
     "searchList": "//div[1]/div/div/section/div//div",
     "searchName": "//div/div[2]/h6/a",
     "searchResult": "//div/div[2]/h6/a",
     "chapterRoads": "//div[1]/div[2]/div/div[1]/section[2]/div//div",
-    "chapterResult": "//div[2]/div/a"
+    "chapterResult": "//div[2]/div/a",
+    "referer": "",
+    "antiCrawlerConfig": {
+        "enabled": true,
+        "captchaType": 2,
+        "captchaImage": "",
+        "captchaInput": "",
+        "captchaButton": "//button[@class='submit-btn']"
+    }
 }

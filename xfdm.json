@@ -1,20 +1,28 @@
 {
-    "api": "3",
+    "api": "6",
     "type": "anime",
     "name": "xfdm",
-    "version": "1.6",
+    "version": "2.0",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "usePost": false,
     "useLegacyParser": true,
+    "adBlocker": false,
     "userAgent": "",
     "baseURL": "https://dm.xifanacg.com/",
     "searchURL": "https://dm.xifanacg.com/search.html?wd=@keyword",
-    "searchList": "//div[4]/div/div",
+    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
     "searchName": "//div/div[2]/a/h3",
     "searchResult": "//div/div[2]/a",
-    "chapterRoads": "//div[5]/div[2]/div[2]/div/div/ul",
+    "chapterRoads": "//ul[@class='anthology-list-play size']",
     "chapterResult": "//li/a",
-    "referer": ""
+    "referer": "",
+    "antiCrawlerConfig": {
+        "enabled": true,
+        "captchaType": 1,
+        "captchaImage": "//img[@class='ds-verify-img']",
+        "captchaInput": "//div[4]/div[2]/div/div/input",
+        "captchaButton": "//div[4]/div[2]/button"
+    }
 }
