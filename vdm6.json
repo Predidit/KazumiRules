@@ -10,14 +10,12 @@
     "searchResult": "//div[3]/a[2]",
     "chapterRoads": "//div[@id='panel1']",
     "chapterResult": "//div/div//a",
-
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "usePost": false,
     "useLegacyParser": false,
     "adBlocker": true,
-  
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-    "referer": "https://ffzyplayer.com/",
+    "userAgent": "",
+    "referer": "https://ffzyplayer.com/"
 }
