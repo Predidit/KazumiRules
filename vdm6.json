@@ -1,0 +1,23 @@
+{
+    "api": "5",
+    "type": "anime",
+    "name": "vdm6",
+    "version": "1.0.0",
+    "baseURL": "https://www.vdm6.com/",
+    "searchURL": "https://www.vdm6.com/search_-------------.html?wd=@keyword",
+    "searchList": "//div[1]/div[2]/div/div/div[2]/div//div",
+    "searchName": "//div[2]/div[1]/a",
+    "searchResult": "//div[3]/a[2]",
+    "chapterRoads": "//div[@id='panel1']",
+    "chapterResult": "//div/div//a",
+
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": true,
+  
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "referer": "https://ffzyplayer.com/",
+}
