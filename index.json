@@ -73,11 +73,11 @@
   },
   {
     "name": "LMM",
-    "version": "2.0",
+    "version": "2.1",
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1772876563000
+    "lastUpdate": 1779322871000
   },
   {
     "name": "mwcy",
