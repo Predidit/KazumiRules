@@ -1,8 +1,8 @@
 {
-    "api": "6",
+    "api": "7",
     "type": "anime",
     "name": "LMM",
-    "version": "2.0",
+    "version": "2.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -20,9 +20,12 @@
     "referer": "",
     "antiCrawlerConfig": {
         "enabled": true,
-        "captchaType": 2,
+        "captchaType": 3,
+        "captchaDetectType": 2,
+        "captchaDetectValue": "身份验证",
         "captchaImage": "",
         "captchaInput": "",
-        "captchaButton": "//button[@class='submit-btn']"
+        "captchaButton": "",
+        "captchaScript": "(function(){KazumiCaptcha.log('LMM smart verify script started');var tries=0;var submitted=false;function token(ts){if(window._0x_lmm_crypto&&typeof window._0x_lmm_crypto.gen==='function'){return window._0x_lmm_crypto.gen(ts);}if(typeof md5==='function'){return md5(String(ts)+'MySecretlmm2026');}return '';}function submit(){if(submitted){return;}if(typeof $==='undefined'||typeof $.post!=='function'){return;}var ts=Math.floor(Date.now()/1000);var smartToken=token(ts);if(!smartToken){return;}submitted=true;KazumiCaptcha.log('LMM smart_verify posting');KazumiCaptcha.clicked();$.post(((window.maccms&&maccms.path)||'')+'/index.php/ajax/smart_verify',{smart_token:smartToken,ts:ts},function(r){KazumiCaptcha.log('LMM smart_verify response: '+JSON.stringify(r));if(r&&r.code==1){setTimeout(function(){try{location.reload();}catch(e){}},100);setTimeout(function(){KazumiCaptcha.done();},1500);}else{submitted=false;}},'json').fail(function(xhr,status,error){submitted=false;KazumiCaptcha.log('LMM smart_verify failed: '+status+' '+error);});}var timer=setInterval(function(){tries++;submit();if(submitted||tries>=40){clearInterval(timer);if(!submitted){KazumiCaptcha.log('LMM smart_verify dependencies not ready');}}},500);submit();return false;})()"
     }
 }
