@@ -1,19 +1,25 @@
 {
-    "deprecated": true,
-    "api": "2",
+    "api": "6",
     "type": "anime",
     "name": "ciyuancheng",
-    "version": "1.5",
+    "version": "2.0",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "usePost": false,
     "userAgent": "",
-    "baseURL": "https://www.ciyuancheng.net/",
-    "searchURL":"https://www.ciyuancheng.net/search.html?wd=@keyword",
-    "searchList": "//div[4]/div[1]/div[1]/div[1]/div",
-    "searchName": "//div[3]/div[1]/div[1]",
-    "searchResult": "//div[3]/div[2]/a[1]",
-    "chapterRoads": "//div[5]/div[2]/div[2]/div/div/ul",
-    "chapterResult": "//li/a"
+    "baseURL": "https://www.cycani.org/",
+    "searchURL": "https://www.cycani.org/search.html?wd=@keyword",
+    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
+    "searchName": "//div/div[2]/a/h3",
+    "searchResult": "//div/div[2]/a",
+    "chapterRoads": "//ul[@class='anthology-list-play size']",
+    "chapterResult": "//li/a",
+    "antiCrawlerConfig": {
+        "enabled": true,
+        "captchaType": 1,
+        "captchaImage": "//img[@class='ds-verify-img']",
+        "captchaInput": "//input[@name='verify']",
+        "captchaButton": "//button[@class='button verify-submit top20']"
+    }
 }
