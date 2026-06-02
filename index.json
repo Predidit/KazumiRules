@@ -32,6 +32,14 @@
     "lastUpdate": 1769573721000
   },
   {
+    "name": "ciyuancheng",
+    "version": "2.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "",
+    "lastUpdate": 1780406571000
+  },
+  {
     "name": "DM84",
     "version": "1.4",
     "useNativePlayer": true,
