@@ -1,0 +1,28 @@
+{
+    "api": "6",
+    "type": "anime",
+    "name": "mutefun",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://www.mutefun.tv/",
+    "searchURL": "https://www.mutefun.tv/vodsearch/@keyword------------.html",
+    "searchList": "//div[1]/div[3]/div/div/div[3]/div//div",
+    "searchName": "//div[2]/div[1]/a/strong",
+    "searchResult": "//div[3]/a[2]",
+    "chapterRoads": "//div[1]/div[3]/div/div[3]//div",
+    "chapterResult": "//div/div/a",
+    "referer": "",
+    "antiCrawlerConfig": {
+        "enabled": true,
+        "captchaType": 1,
+        "captchaImage": "//div[4]/div[1]/img",
+        "captchaInput": "//div[4]/div[1]/input",
+        "captchaButton": "//div[4]/div[2]/input"
+    }
+}
