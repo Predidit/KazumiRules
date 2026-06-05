@@ -81,11 +81,11 @@
   },
   {
     "name": "mutefun",
-    "version": "1.0",
+    "version": "1.1",
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1780590794000
+    "lastUpdate": 1780637024000
   },
   {
     "name": "mwcy",
