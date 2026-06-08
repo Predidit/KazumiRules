@@ -80,6 +80,14 @@
     "lastUpdate": 1780292876000
   },
   {
+    "name": "mgnacg",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "",
+    "lastUpdate": 1780897282000
+  },
+  {
     "name": "mutefun",
     "version": "1.1",
     "useNativePlayer": true,
