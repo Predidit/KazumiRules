@@ -8,7 +8,7 @@
   "useNativePlayer": true,
   "usePost": false,
   "useLegacyParser": true,
-  "adBlocker": false,
+  "adBlocker": true,
   "userAgent": "",
   "baseURL": "https://fcdm.org.cn/",
   "searchURL": "https://fcdm.org.cn/u/?wd=@keyword",
