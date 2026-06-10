@@ -1,0 +1,24 @@
+{
+  "api": "6",
+  "type": "anime",
+  "name": "fcdm",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": true,
+  "adBlocker": true,
+  "userAgent": "",
+  "baseURL": "https://fcdm.org.cn/",
+  "searchURL": "https://fcdm.org.cn/u/?wd=@keyword",
+  "searchList": "//article[@class='u-movie']",
+  "searchName": "//a/h2",
+  "searchResult": "//a",
+  "chapterRoads": "//article[@class='article-content']/div[@id='video_list_li']",
+  "chapterResult": "//a",
+  "referer": "",
+  "antiCrawlerConfig": {
+    "enabled": false
+  }
+}
