@@ -29,7 +29,7 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1780406571000
+    "lastUpdate": 1781270758000
   },
   {
     "name": "DM84",
@@ -118,6 +118,14 @@
     "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1777179683000
+  },
+  {
+    "name": "qifan",
+    "version": "2.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "",
+    "lastUpdate": 1781270758000
   },
   {
     "name": "xfdm",
