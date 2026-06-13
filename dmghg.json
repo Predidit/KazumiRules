@@ -8,7 +8,7 @@
   "useNativePlayer": true,
   "usePost": false,
   "useLegacyParser": true,
-  "adBlocker": false,
+  "adBlocker": true,
   "userAgent": "",
   "baseURL": "https://www.dmghg1.com/",
   "searchURL": "https://www.dmghg1.com/index.php/vod/search.html?wd=@keyword",
