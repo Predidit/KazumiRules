@@ -40,14 +40,6 @@
     "lastUpdate": 1770015775000
   },
   {
-    "name": "dmghg",
-    "version": "1.0",
-    "useNativePlayer": true,
-    "antiCrawlerEnabled": false,
-    "author": "",
-    "lastUpdate": 1781338690000
-  },
-  {
     "name": "enlie",
     "version": "1.0",
     "useNativePlayer": true,
@@ -62,6 +54,14 @@
     "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1781096923000
+  },
+  {
+    "name": "FQDM",
+    "version": "2.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1781339203000
   },
   {
     "name": "giriGiriLove",
