@@ -40,6 +40,14 @@
     "lastUpdate": 1770015775000
   },
   {
+    "name": "dmghg",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1781338690000
+  },
+  {
     "name": "enlie",
     "version": "1.0",
     "useNativePlayer": true,
@@ -120,12 +128,12 @@
     "lastUpdate": 1777179683000
   },
   {
-    "name": "qifan",
+    "name": "qifun",
     "version": "2.0",
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1781270758000
+    "lastUpdate": 1781338690000
   },
   {
     "name": "xfdm",
