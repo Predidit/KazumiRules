@@ -121,11 +121,11 @@
   },
   {
     "name": "qifun",
-    "version": "2.0",
+    "version": "2.1",
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1781338690000
+    "lastUpdate": 1781413737000
   },
   {
     "name": "xfdm",
