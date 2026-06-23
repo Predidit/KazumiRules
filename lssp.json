@@ -1,8 +1,8 @@
 {
-  "api": "7",
+  "api": "5",
   "type": "anime",
   "name": "劳氏视频",
-  "version": "v0.2",
+  "version": "v0.2.1",
   "multiSources": true,
   "useWebview": true,
   "useNativePlayer": true,
