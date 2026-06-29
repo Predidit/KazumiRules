@@ -8,6 +8,14 @@
     "lastUpdate": 1770510516000
   },
   {
+    "name": "aafun",
+    "version": "1.1",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1782702566000
+  },
+  {
     "name": "AGE",
     "version": "1.5",
     "useNativePlayer": true,
