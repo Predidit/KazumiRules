@@ -1,0 +1,17 @@
+{
+    "api": "4",
+    "type": "anime",
+    "name": "91kanju",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; SM-G998B) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36",
+    "baseURL": "https://www.91zhuiju.net/",
+    "searchURL": "https://www.91zhuiju.net/vod/search.html?wd=@keyword",
+    "searchList": "//div[@class='module-items module-card-items']/div[contains(@class,'module-card-item')]",
+    "searchName": ".//div[@class='module-card-item-title']/a/strong",
+    "searchResult": ".//div[@class='module-card-item-title']/a/@href",
+    "chapterRoads": "//div[contains(@class,'module-card-item-footer')]",
+    "chapterResult": ".//a[contains(@class,'play-btn')]/@href"
+}
