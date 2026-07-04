@@ -2,7 +2,7 @@
   "api": "5",
   "type": "anime",
   "name": "劳氏视频",
-  "version": "v0.2.1",
+  "version": "v0.3",
   "multiSources": true,
   "useWebview": true,
   "useNativePlayer": true,
@@ -15,7 +15,7 @@
   "searchList": "//div[1]/div[3]/div/div/div[2]/div/div",
   "searchName": "//div[1]/a",
   "searchResult": "//div[1]/a",
-  "chapterRoads": "//div/div[3]/div/div[2]/div[2]//div",
+  "chapterRoads": "//div/div[3]/div/div[2]/div//div",
   "chapterResult": "//a",
   "referer": "",
   "antiCrawlerConfig": {
