@@ -136,6 +136,14 @@
     "lastUpdate": 1781413737000
   },
   {
+    "name": "TvTFun",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1783604536000
+  },
+  {
     "name": "xfdm",
     "version": "2.1",
     "useNativePlayer": true,
