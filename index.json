@@ -144,6 +144,14 @@
     "lastUpdate": 1781413737000
   },
   {
+    "name": "sorani",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1783910492000
+  },
+  {
     "name": "TvTFun",
     "version": "1.0",
     "useNativePlayer": true,
