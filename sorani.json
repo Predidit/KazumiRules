@@ -1,0 +1,66 @@
+{
+  "api": "8",
+  "type": "anime",
+  "name": "sorani",
+  "version": "1.0",
+  "muliSources": false,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "",
+  "baseURL": "https://www.sorani.net/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "referer": "https://www.sorani.net/",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://api.sorani.cc/sorani-cms/api/video",
+      "query": {
+        "page": 1,
+        "size": 50,
+        "keyword": "@keyword",
+        "enabled": true,
+        "sortMode": "latest",
+        "sortDesc": false
+      }
+    },
+    "listPath": "$.data.records[*]",
+    "namePath": "$.title",
+    "sourcePath": "$.id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://api.sorani.cc/sorani-cms/api/video/@source"
+    },
+    "format": "nested",
+    "roadsPath": "$.data",
+    "roadNamePath": "",
+    "episodesPath": "$.episodes[*]",
+    "episodeNamePath": "$.episodeLabel",
+    "episodeUrlPath": "$.episodeOrder",
+    "episodePage": {
+      "url": "https://www.sorani.net/anime/mal/@source/episode/@episodeUrl",
+      "query": {}
+    }
+  },
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
