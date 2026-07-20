@@ -14,6 +14,5 @@
     "searchName": "//h2/a",
     "searchResult": "//h2/a",
     "chapterRoads": "//div[2]/div[2]/div[8]/div/div/ul",
-    "chapterResult": "//li/a",
-    "referer": "https://www.bmmdm.com/"
+    "chapterResult": "//li/a"
 }
