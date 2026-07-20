@@ -2,17 +2,18 @@
     "api": "5",
     "type": "anime",
     "name": "baimao",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
     "adBlocker": true,
-    "baseURL": "https://www.baimaodm.com/",
-    "searchURL":"https://www.baimaodm.com/s_all?ex=1&kw=@keyword",
+    "baseURL": "https://www.bmmdm.com/",
+    "searchURL": "https://www.bmmdm.com/s_all?ex=1&kw=@keyword",
     "searchList": "//div[4]/div[2]/div[1]/ul/li",
     "searchName": "//h2/a",
     "searchResult": "//h2/a",
     "chapterRoads": "//div[2]/div[2]/div[8]/div/div/ul",
-    "chapterResult": "//li/a"
+    "chapterResult": "//li/a",
+    "referer": "https://www.bmmdm.com/"
 }
