@@ -2,7 +2,7 @@
     "api": "6",
     "type": "anime",
     "name": "giriGiriLove",
-    "version": "2.3",
+    "version": "2.4",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -22,7 +22,7 @@
         "enabled": true,
         "captchaType": 1,
         "captchaImage": "//img[@class='ds-verify-img']",
-        "captchaInput": "//div[4]/div[2]/div/div/input",
-        "captchaButton": "//div[4]/div[2]/button"
+        "captchaInput": "//input[@class='input box br cor5 ds-verify r6']",
+        "captchaButton": "//button[@class='button verify-submit top20']"
     }
 }
