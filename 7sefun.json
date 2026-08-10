@@ -12,6 +12,6 @@
     "searchList": "//div[2]/div[2]/div[2]/div[2]/div",
     "searchName": "//div[2]/text()",
     "searchResult": "//a",
-    "chapterRoads": "//div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]",
+    "chapterRoads": "//div[2]/div[2]/div[2]/div/div[2]/div[1]//div",
     "chapterResult": "//a"
 }
