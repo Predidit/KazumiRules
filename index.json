@@ -112,14 +112,6 @@
     "lastUpdate": 1783910492000
   },
   {
-    "name": "xfdm",
-    "version": "2.1",
-    "useNativePlayer": true,
-    "antiCrawlerEnabled": true,
-    "author": "",
-    "lastUpdate": 1780065540000
-  },
-  {
     "name": "xfdmneo",
     "version": "1.1",
     "useNativePlayer": true,
