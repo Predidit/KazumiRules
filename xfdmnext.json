@@ -1,0 +1,67 @@
+{
+  "api": "8",
+  "type": "anime",
+  "name": "xfdmnext",
+  "version": "1.0",
+  "muliSources": false,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://next.xifanacg.com/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "POST",
+      "url": "https://rzmsnqblptbceicadbyd.supabase.co/rest/v1/rpc/search_animes",
+      "headers": {
+        "apikey": "sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF",
+        "Authorization": "Bearer sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF"
+      },
+      "bodyType": "json",
+      "body": {
+        "search_term": "@keyword",
+        "page_number": 1,
+        "items_per_page": 24,
+        "sort_by": "created_at",
+        "sort_order": "desc"
+      }
+    },
+    "listPath": "$[*]",
+    "namePath": "$.title",
+    "sourcePath": "$.id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "POST",
+      "url": "https://rzmsnqblptbceicadbyd.supabase.co/rest/v1/rpc/get_anime_detail",
+      "headers": {
+        "apikey": "sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF",
+        "Authorization": "Bearer sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF"
+      },
+      "bodyType": "json",
+      "body": {
+        "p_id": "@source"
+      }
+    },
+    "format": "nested",
+    "roadsPath": "$.sources[0]",
+    "roadNamePath": "$.name",
+    "episodesPath": "$.episodes[*]",
+    "episodeNamePath": "$.title",
+    "episodeUrlPath": "$.id",
+    "episodePage": {
+      "url": "https://next.xifanacg.com/anime/@source/play/@episodeUrl",
+      "query": {}
+    }
+  }
+}
