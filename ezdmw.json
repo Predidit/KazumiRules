@@ -1,0 +1,26 @@
+{
+    "api": "8",
+    "type": "anime",
+    "name": "ezdm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://m.ezdmw.org/",
+    "searchURL": "https://m.ezdmw.org/Index/search.html?searchText=@keyword",
+    "searchList": "//section[@id='some_drama']/div",
+    "searchName": "//p",
+    "searchResult": "//a",
+    "chapterRoads": "//section[@class='anthology'][1]",
+    "chapterResult": "//a[contains(@class,'circuit_switch') and not(contains(@class,'circuit_switch2'))]",
+    "referer": "https://m.ezdmw.org/",
+    "searchMode": "xpath",
+    "chapterMode": "xpath",
+    "antiCrawlerConfig": {
+        "enabled": false
+    }
+}
