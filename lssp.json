@@ -1,0 +1,31 @@
+{
+  "api": "5",
+  "type": "anime",
+  "name": "劳氏视频",
+  "version": "v0.3",
+  "multiSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
+  "baseURL": "https://xn--cy2a840a.xn--vzyr4p.top",
+  "searchURL": "https://xn--cy2a840a.xn--vzyr4p.top/index.php/vod/search.html?wd=@keyword",
+  "searchList": "//div[1]/div[3]/div/div/div[2]/div/div",
+  "searchName": "//div[1]/a",
+  "searchResult": "//div[1]/a",
+  "chapterRoads": "//div/div[3]/div/div[2]/div//div",
+  "chapterResult": "//a",
+  "referer": "",
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
