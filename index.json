@@ -104,14 +104,6 @@
     "lastUpdate": 1787463227000
   },
   {
-    "name": "mwcy",
-    "version": "1.2",
-    "useNativePlayer": true,
-    "antiCrawlerEnabled": false,
-    "author": "",
-    "lastUpdate": 1771294191000
-  },
-  {
     "name": "MXdm",
     "version": "2.3",
     "useNativePlayer": true,
@@ -134,13 +126,5 @@
     "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1772964002000
-  },
-  {
-    "name": "xfdmnext",
-    "version": "1.0",
-    "useNativePlayer": true,
-    "antiCrawlerEnabled": false,
-    "author": "",
-    "lastUpdate": 1786544157000
   }
 ]
