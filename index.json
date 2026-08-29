@@ -88,6 +88,14 @@
     "lastUpdate": 1780897282000
   },
   {
+    "name": "moonci",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1787975634000
+  },
+  {
     "name": "mutefun",
     "version": "1.2",
     "useNativePlayer": true,
