@@ -1,0 +1,33 @@
+{
+    "api": "8",
+    "type": "anime",
+    "name": "moonci",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://www.moonci.com/",
+    "searchURL": "https://www.moonci.com/search/-------------.html?wd=@keyword",
+    "searchList": "//ul[contains(@class, 'hl-one-list')]/li[contains(@class, 'hl-list-item')]",
+    "searchName": ".//div[contains(@class, 'hl-item-title')]/a",
+    "searchResult": ".//div[contains(@class, 'hl-item-title')]/a",
+    "chapterRoads": "//div[contains(@class, 'hl-play-source')]//ul[contains(@class, 'hl-plays-list')]",
+    "chapterResult": ".//a[contains(@href, '/play/')]",
+    "referer": "",
+    "searchMode": "xpath",
+    "chapterMode": "xpath",
+    "antiCrawlerConfig": {
+        "enabled": false,
+        "captchaType": 1,
+        "captchaImage": "",
+        "captchaInput": "",
+        "captchaButton": "",
+        "captchaDetectType": 1,
+        "captchaDetectValue": "",
+        "captchaScript": ""
+    }
+}
