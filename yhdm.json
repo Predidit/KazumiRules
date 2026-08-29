@@ -1,0 +1,19 @@
+{
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "useLegacyParser": true,
+    "api": "1",
+    "type": "anime",
+    "name": "樱花动漫(科学上网)",
+    "version": "1.0",
+    "baseURL": "https://yhdm.one",
+    "searchURL": "https://yhdm.one/search?q=@keyword",
+    "searchList": "//ul[@class="list-unstyled"]/li",
+    "searchName": "//h6/a",
+    "searchResult": "//h6/a",
+    "chapterRoads": "//div[@class="ep-panel mb-3"]",
+    "chapterResult": "//ul/li/a",
+    "usePost": false,
+    "userAgent": ""
+}
