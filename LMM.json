@@ -9,7 +9,7 @@
     "usePost": false,
     "useLegacyParser": false,
     "adBlocker": false,
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "userAgent": "",
     "baseURL": "https://www.lmm85.com/",
     "searchURL": "https://www.lmm85.com/vod/search.html?wd=@keyword",
     "searchList": "//div[@id='mdym']//div[contains(@class,'video-img-box')]",
