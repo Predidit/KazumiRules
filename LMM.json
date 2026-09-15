@@ -1,9 +1,8 @@
 {
-    "deprecated": true,
     "api": "7",
     "type": "anime",
     "name": "LMM",
-    "version": "2.1",
+    "version": "2.2",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -13,20 +12,20 @@
     "userAgent": "",
     "baseURL": "https://www.lmm85.com/",
     "searchURL": "https://www.lmm85.com/vod/search.html?wd=@keyword",
-    "searchList": "//div[1]/div/div/section/div//div",
-    "searchName": "//div/div[2]/h6/a",
-    "searchResult": "//div/div[2]/h6/a",
-    "chapterRoads": "//div[1]/div[2]/div/div[1]/section[2]/div//div",
-    "chapterResult": "//div[2]/div/a",
-    "referer": "",
+    "searchList": "//div[@id='mdym']//div[contains(@class,'video-img-box')]",
+    "searchName": ".//h6/a",
+    "searchResult": ".//h6/a",
+    "chapterRoads": "//div[contains(@class,'module-player-list')]",
+    "chapterResult": ".//a",
+    "referer": "https://www.lmm85.com/",
     "antiCrawlerConfig": {
         "enabled": true,
-        "captchaType": 3,
+        "captchaType": 2,
         "captchaDetectType": 2,
         "captchaDetectValue": "身份验证",
         "captchaImage": "",
         "captchaInput": "",
-        "captchaButton": "",
-        "captchaScript": "(function(){KazumiCaptcha.log('LMM smart verify script started');var tries=0;var submitted=false;function token(ts){if(window._0x_lmm_crypto&&typeof window._0x_lmm_crypto.gen==='function'){return window._0x_lmm_crypto.gen(ts);}if(typeof md5==='function'){return md5(String(ts)+'MySecretlmm2026');}return '';}function submit(){if(submitted){return;}if(typeof $==='undefined'||typeof $.post!=='function'){return;}var ts=Math.floor(Date.now()/1000);var smartToken=token(ts);if(!smartToken){return;}submitted=true;KazumiCaptcha.log('LMM smart_verify posting');KazumiCaptcha.clicked();$.post(((window.maccms&&maccms.path)||'')+'/index.php/ajax/smart_verify',{smart_token:smartToken,ts:ts},function(r){KazumiCaptcha.log('LMM smart_verify response: '+JSON.stringify(r));if(r&&r.code==1){setTimeout(function(){try{location.reload();}catch(e){}},100);setTimeout(function(){KazumiCaptcha.done();},1500);}else{submitted=false;}},'json').fail(function(xhr,status,error){submitted=false;KazumiCaptcha.log('LMM smart_verify failed: '+status+' '+error);});}var timer=setInterval(function(){tries++;submit();if(submitted||tries>=40){clearInterval(timer);if(!submitted){KazumiCaptcha.log('LMM smart_verify dependencies not ready');}}},500);submit();return false;})()"
+        "captchaButton": "//button[contains(text(),'立即验证')]",
+        "captchaScript": ""
     }
 }
