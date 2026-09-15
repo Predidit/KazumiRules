@@ -7,7 +7,7 @@
   "useWebview": true,
   "useNativePlayer": true,
   "adBlocker": true,
-  "userAgent": "",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   "referer": "https://omofun.in/",
   "baseURL": "https://omofun.in/",
   "searchURL": "https://omofun.in/vod/search.html?wd=@keyword",
