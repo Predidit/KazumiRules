@@ -126,5 +126,13 @@
     "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1772964002000
+  },
+  {
+    "name": "xfdmnext",
+    "version": "1.1",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1790868808000
   }
 ]
