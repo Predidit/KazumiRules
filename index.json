@@ -41,11 +41,11 @@
   },
   {
     "name": "dalvdm",
-    "version": "1.0",
+    "version": "1.1",
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1783855961000
+    "lastUpdate": 1790850696000
   },
   {
     "name": "DM84",
