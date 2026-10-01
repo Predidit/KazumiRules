@@ -5,6 +5,7 @@
   "muliSources": false,
   "referer": "https://milimili.moe/",
   "baseURL": "https://milimili.moe",
+  "useNativePlayer": true,
   "searchMode": "api",
   "chapterMode": "api",
   "searchApiConfig": {
