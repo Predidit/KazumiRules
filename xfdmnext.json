@@ -1,9 +1,8 @@
 {
-  "deprecated": true,
   "api": "8",
   "type": "anime",
   "name": "xfdmnext",
-  "version": "1.0",
+  "version": "1.1",
   "muliSources": false,
   "useWebview": true,
   "useNativePlayer": true,
@@ -23,18 +22,16 @@
   "searchApiConfig": {
     "request": {
       "method": "POST",
-      "url": "https://rzmsnqblptbceicadbyd.supabase.co/rest/v1/rpc/search_animes",
+      "url": "https://api.xifanacg.com/rest/v1/rpc/search_animes",
       "headers": {
-        "apikey": "sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF",
-        "Authorization": "Bearer sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF"
+        "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
+        "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
       },
       "bodyType": "json",
       "body": {
         "search_term": "@keyword",
         "page_number": 1,
-        "items_per_page": 24,
-        "sort_by": "created_at",
-        "sort_order": "desc"
+        "items_per_page": 24
       }
     },
     "listPath": "$[*]",
@@ -44,10 +41,10 @@
   "chapterApiConfig": {
     "request": {
       "method": "POST",
-      "url": "https://rzmsnqblptbceicadbyd.supabase.co/rest/v1/rpc/get_anime_detail",
+      "url": "https://api.xifanacg.com/rest/v1/rpc/get_anime_detail",
       "headers": {
-        "apikey": "sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF",
-        "Authorization": "Bearer sb_publishable_aCb7uwyLN6H-sMjze4dRGA_2MDuROLF"
+        "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
+        "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
       },
       "bodyType": "json",
       "body": {
@@ -55,7 +52,7 @@
       }
     },
     "format": "nested",
-    "roadsPath": "$.sources[0]",
+    "roadsPath": "$.sources[*]",
     "roadNamePath": "$.name",
     "episodesPath": "$.episodes[*]",
     "episodeNamePath": "$.title",
@@ -64,5 +61,15 @@
       "url": "https://next.xifanacg.com/anime/@source/play/@episodeUrl",
       "query": {}
     }
+  },
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
   }
 }
