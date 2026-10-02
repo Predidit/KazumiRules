@@ -141,6 +141,7 @@
         "useNativePlayer": true,
         "antiCrawlerEnabled": true,
         "author": "",
-        "lastUpdate": 1790981285913
+        "lastUpdate": 1790981285913,
+        "needLogin": true
     }
 ]
