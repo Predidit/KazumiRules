@@ -1,0 +1,21 @@
+{
+    "api": "6",
+    "type": "anime",
+    "name": "bmmdmm",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": true,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://www.bmmdmm.com/",
+    "searchURL": "https://www.bmmdmm.com/s_all?ex=1&kw=@keyword",
+    "searchList": "//div[4]/div[2]/div[1]/ul//li",
+    "searchName": "//h2/a",
+    "searchResult": "//h2/a",
+    "chapterRoads": "//div[2]/div[2]/div[8]/div//div",
+    "chapterResult": "//ul/li/a",
+    "referer": ""
+}
