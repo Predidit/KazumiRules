@@ -29,5 +29,6 @@
         "captchaDetectType": 1,
         "captchaDetectValue": "",
         "captchaScript": ""
-    }
+    },
+    "icon": "https://www.moonci.com/template/conch/asset/img/favicon.png"
 }

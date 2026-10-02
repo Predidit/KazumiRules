@@ -24,5 +24,6 @@
         "captchaImage": "//div[4]/div[1]/img",
         "captchaInput": "//div[4]/div[1]/input",
         "captchaButton": "//div[4]/div[2]/input"
-    }
+    },
+    "icon": "https://www.mutefun.tv/upload/mxprocms/20220822-1/e68e718ceae9622e4646ca725d182831.png"
 }

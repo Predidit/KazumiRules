@@ -1,75 +1,76 @@
 {
-  "api": "8",
-  "type": "anime",
-  "name": "xfdmnext",
-  "version": "1.1",
-  "muliSources": false,
-  "useWebview": true,
-  "useNativePlayer": true,
-  "usePost": false,
-  "useLegacyParser": false,
-  "adBlocker": false,
-  "userAgent": "",
-  "baseURL": "https://next.xifanacg.com/",
-  "searchURL": "",
-  "searchList": "",
-  "searchName": "",
-  "searchResult": "",
-  "chapterRoads": "",
-  "chapterResult": "",
-  "searchMode": "api",
-  "chapterMode": "api",
-  "searchApiConfig": {
-    "request": {
-      "method": "POST",
-      "url": "https://api.xifanacg.com/rest/v1/rpc/search_animes",
-      "headers": {
-        "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
-        "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
-      },
-      "bodyType": "json",
-      "body": {
-        "search_term": "@keyword",
-        "page_number": 1,
-        "items_per_page": 24
-      }
+    "api": "8",
+    "type": "anime",
+    "name": "xfdmnext",
+    "version": "1.1",
+    "muliSources": false,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://next.xifanacg.com/",
+    "searchURL": "",
+    "searchList": "",
+    "searchName": "",
+    "searchResult": "",
+    "chapterRoads": "",
+    "chapterResult": "",
+    "searchMode": "api",
+    "chapterMode": "api",
+    "searchApiConfig": {
+        "request": {
+            "method": "POST",
+            "url": "https://api.xifanacg.com/rest/v1/rpc/search_animes",
+            "headers": {
+                "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
+                "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
+            },
+            "bodyType": "json",
+            "body": {
+                "search_term": "@keyword",
+                "page_number": 1,
+                "items_per_page": 24
+            }
+        },
+        "listPath": "$[*]",
+        "namePath": "$.title",
+        "sourcePath": "$.id"
     },
-    "listPath": "$[*]",
-    "namePath": "$.title",
-    "sourcePath": "$.id"
-  },
-  "chapterApiConfig": {
-    "request": {
-      "method": "POST",
-      "url": "https://api.xifanacg.com/rest/v1/rpc/get_anime_detail",
-      "headers": {
-        "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
-        "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
-      },
-      "bodyType": "json",
-      "body": {
-        "p_id": "@source"
-      }
+    "chapterApiConfig": {
+        "request": {
+            "method": "POST",
+            "url": "https://api.xifanacg.com/rest/v1/rpc/get_anime_detail",
+            "headers": {
+                "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
+                "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
+            },
+            "bodyType": "json",
+            "body": {
+                "p_id": "@source"
+            }
+        },
+        "format": "nested",
+        "roadsPath": "$.sources[*]",
+        "roadNamePath": "$.name",
+        "episodesPath": "$.episodes[*]",
+        "episodeNamePath": "$.title",
+        "episodeUrlPath": "$.id",
+        "episodePage": {
+            "url": "https://next.xifanacg.com/anime/@source/play/@episodeUrl",
+            "query": {}
+        }
     },
-    "format": "nested",
-    "roadsPath": "$.sources[*]",
-    "roadNamePath": "$.name",
-    "episodesPath": "$.episodes[*]",
-    "episodeNamePath": "$.title",
-    "episodeUrlPath": "$.id",
-    "episodePage": {
-      "url": "https://next.xifanacg.com/anime/@source/play/@episodeUrl",
-      "query": {}
-    }
-  },
-  "antiCrawlerConfig": {
-    "enabled": false,
-    "captchaType": 1,
-    "captchaImage": "",
-    "captchaInput": "",
-    "captchaButton": "",
-    "captchaDetectType": 1,
-    "captchaDetectValue": "",
-    "captchaScript": ""
-  }
+    "antiCrawlerConfig": {
+        "enabled": false,
+        "captchaType": 1,
+        "captchaImage": "",
+        "captchaInput": "",
+        "captchaButton": "",
+        "captchaDetectType": 1,
+        "captchaDetectValue": "",
+        "captchaScript": ""
+    },
+    "icon": ""
 }

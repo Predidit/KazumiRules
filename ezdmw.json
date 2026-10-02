@@ -22,5 +22,6 @@
     "chapterMode": "xpath",
     "antiCrawlerConfig": {
         "enabled": false
-    }
+    },
+    "icon": "https://m.ezdmw.org/Public/images/icon.png"
 }

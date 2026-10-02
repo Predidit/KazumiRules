@@ -14,5 +14,6 @@
     "searchName": "//div/div[2]/a/h3",
     "searchResult": "//div/div[2]/div/div[1]/a",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
-    "chapterResult": "//li/a"
+    "chapterResult": "//li/a",
+    "icon": "https://www.akianime.cc/template/dsn2/static/img/icon.png"
 }

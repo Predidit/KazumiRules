@@ -17,5 +17,6 @@
     "searchResult": "//div[3]/div[2]/a[1]",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
     "chapterResult": "//li/a",
-    "referer": ""
+    "referer": "",
+    "icon": ""
 }

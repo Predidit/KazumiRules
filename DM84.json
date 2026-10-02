@@ -9,10 +9,11 @@
     "userAgent": "",
     "adBlocker": true,
     "baseURL": "https://dmbus.cc/",
-    "searchURL":"https://dmbus.cc/s----------.html?wd=@keyword",
+    "searchURL": "https://dmbus.cc/s----------.html?wd=@keyword",
     "searchList": "//div/div[3]/ul/li",
     "searchName": "//div/a[2]",
     "searchResult": "//div/a[2]",
     "chapterRoads": "//div/div[4]/div/ul",
-    "chapterResult": "//li/a"
+    "chapterResult": "//li/a",
+    "icon": "https://dmbus.cc/favicon.ico"
 }

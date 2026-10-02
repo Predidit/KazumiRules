@@ -13,5 +13,6 @@
     "searchName": "//div/div[2]/h5/a",
     "searchResult": "//div/div[2]/h5/a",
     "chapterRoads": "//div[2]/div/section/div/div[2]/div[2]/div[2]/div",
-    "chapterResult": "//ul/li/a"
+    "chapterResult": "//ul/li/a",
+    "icon": "https://cdn.aqdstatic.com:966/large/008bLEJGgy1hc40ennm4uj306o06omx9.jpg"
 }
