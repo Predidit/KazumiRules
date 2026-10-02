@@ -1,16 +1,15 @@
 {
-    "deprecated": true,
     "api": "6",
     "type": "anime",
     "name": "ciyuancheng",
-    "version": "2.0",
+    "version": "2.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
     "usePost": false,
     "userAgent": "",
-    "baseURL": "https://www.cycani.org/",
-    "searchURL": "https://www.cycani.org/search.html?wd=@keyword",
+    "baseURL": "https://www.cyc-anime.net/",
+    "searchURL": "https://www.cyc-anime.net/search.html?wd=@keyword",
     "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
     "searchName": "//div/div[2]/a/h3",
     "searchResult": "//div/div[2]/a",
@@ -22,5 +21,8 @@
         "captchaImage": "//img[@class='ds-verify-img']",
         "captchaInput": "//input[@name='verify']",
         "captchaButton": "//button[@class='button verify-submit top20']"
-    }
+    },
+    "needLogin": true,
+    "loginURL": "https://www.cyc-anime.net/",
+    "icon": "https://www.cyc-anime.net/upload/site/20240319-1/25e700991446a527804c82a744731b60.png"
 }
