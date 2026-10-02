@@ -1,28 +1,72 @@
 {
-  "api": "6",
+  "api": "8",
   "type": "anime",
   "name": "ciyuancheng",
-  "version": "2.1",
-  "muliSources": true,
+  "version": "3.0",
+  "muliSources": false,
   "useWebview": true,
   "useNativePlayer": true,
   "usePost": false,
+  "useLegacyParser": false,
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
-  "baseURL": "https://www.cyc-anime.net/",
-  "searchURL": "https://www.cyc-anime.net/search.html?wd=@keyword",
-  "searchList": "//div[contains(@class,'search-box')]",
-  "searchName": "//div[contains(@class,'thumb-content')]/div[contains(@class,'thumb-txt')]",
-  "searchResult": "//div[contains(@class,'thumb-menu')]/a",
-  "chapterRoads": "//div[contains(@class,'anthology-list-play')]",
-  "chapterResult": "//a",
-  "antiCrawlerConfig": {
-    "enabled": true,
-    "captchaType": 1,
-    "captchaImage": "//img[@class='ds-verify-img']",
-    "captchaInput": "//input[@name='verify']",
-    "captchaButton": "//button[@class='button verify-submit top20']"
+  "baseURL": "https://www.cycani.org/",
+  "referer": "https://www.cycani.org/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.cycani.org/api/videos/search",
+      "query": {
+        "q": "@keyword",
+        "page": 1,
+        "page_size": 24
+      },
+      "headers": {
+        "Accept": "application/json",
+        "X-App-Name": "cyc_web",
+        "X-App-Version": "cycweb",
+        "X-Time-Zone": "Asia/Shanghai"
+      }
+    },
+    "listPath": "$.data.list[*]",
+    "namePath": "$.title",
+    "sourcePath": "$.video_id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.cycani.org/api/videos/@source/sections",
+      "query": {
+        "player_code": "cychub",
+        "page": 1,
+        "page_size": 48
+      },
+      "headers": {
+        "Accept": "application/json",
+        "X-App-Name": "cyc_web",
+        "X-App-Version": "cycweb",
+        "X-Time-Zone": "Asia/Shanghai"
+      }
+    },
+    "format": "nested",
+    "roadsPath": "$.data",
+    "roadNamePath": "",
+    "episodesPath": "$.list[*]",
+    "episodeNamePath": "$.title",
+    "episodeUrlPath": "",
+    "episodePage": {
+      "url": "/anime/@source/play/@episodeNumber?from=cychub",
+      "query": {}
+    }
   },
   "needLogin": true,
-  "loginURL": "https://www.cyc-anime.net/",
+  "loginURL": "https://www.cycani.org/login",
   "icon": "https://www.cyc-anime.net/upload/site/20240319-1/25e700991446a527804c82a744731b60.png"
 }
