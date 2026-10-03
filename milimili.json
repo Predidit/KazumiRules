@@ -1,55 +1,56 @@
 {
-  "api": "8",
-  "name": "milimili",
-  "version": "1.0",
-  "muliSources": false,
-  "referer": "https://milimili.moe/",
-  "baseURL": "https://milimili.moe",
-  "useNativePlayer": true,
-  "searchMode": "api",
-  "chapterMode": "api",
-  "searchApiConfig": {
-    "request": {
-      "method": "POST",
-      "url": "https://milimili.moe/milimili.platform.v1.PlatformService/SearchVideos",
-      "headers": {
-        "Accept": "application/json",
-        "Connect-Protocol-Version": "1"
-      },
-      "bodyType": "json",
-      "body": {
-        "query": "@keyword",
-        "limit": 50,
-        "sectionSlug": "anime",
-        "contentType": "pgc"
-      }
+    "api": "8",
+    "name": "milimili",
+    "version": "1.0",
+    "muliSources": false,
+    "referer": "https://milimili.moe/",
+    "baseURL": "https://milimili.moe",
+    "useNativePlayer": true,
+    "searchMode": "api",
+    "chapterMode": "api",
+    "searchApiConfig": {
+        "request": {
+            "method": "POST",
+            "url": "https://milimili.moe/milimili.platform.v1.PlatformService/SearchVideos",
+            "headers": {
+                "Accept": "application/json",
+                "Connect-Protocol-Version": "1"
+            },
+            "bodyType": "json",
+            "body": {
+                "query": "@keyword",
+                "limit": 50,
+                "sectionSlug": "anime",
+                "contentType": "pgc"
+            }
+        },
+        "listPath": "$.videos[*]",
+        "namePath": "$.title",
+        "sourcePath": "$.shortId"
     },
-    "listPath": "$.videos[*]",
-    "namePath": "$.title",
-    "sourcePath": "$.shortId"
-  },
-  "chapterApiConfig": {
-    "request": {
-      "method": "POST",
-      "url": "https://milimili.moe/milimili.platform.v1.PlatformService/GetBangumi",
-      "headers": {
-        "Accept": "application/json",
-        "Connect-Protocol-Version": "1"
-      },
-      "bodyType": "json",
-      "body": {
-        "shortId": "@source"
-      }
+    "chapterApiConfig": {
+        "request": {
+            "method": "POST",
+            "url": "https://milimili.moe/milimili.platform.v1.PlatformService/GetBangumi",
+            "headers": {
+                "Accept": "application/json",
+                "Connect-Protocol-Version": "1"
+            },
+            "bodyType": "json",
+            "body": {
+                "shortId": "@source"
+            }
+        },
+        "roadsPath": "$",
+        "roadNamePath": "$.video.title",
+        "episodeNamePath": "$.episodeLabel",
+        "episodeUrlPath": "$.ep",
+        "episodePage": {
+            "url": "https://milimili.moe/watch",
+            "query": {
+                "ep": "@episodeUrl"
+            }
+        }
     },
-    "roadsPath": "$",
-    "roadNamePath": "$.video.title",
-    "episodeNamePath": "$.episodeLabel",
-    "episodeUrlPath": "$.ep",
-    "episodePage": {
-      "url": "https://milimili.moe/watch",
-      "query": {
-        "ep": "@episodeUrl"
-      }
-    }
-  }
+    "icon": "https://milimili.moe/brand/dog-head.png"
 }

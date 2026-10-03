@@ -5,7 +5,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1786362131000
+    "lastUpdate": 1786362131000,
+    "icon": "https://www.7sefun.top//pc/img/favicon.ico"
   },
   {
     "name": "aafun",
@@ -13,7 +14,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1787289623000
+    "lastUpdate": 1787289623000,
+    "icon": ""
   },
   {
     "name": "AGE",
@@ -21,7 +23,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1758092260000
+    "lastUpdate": 1758092260000,
+    "icon": "https://cdn.aqdstatic.com:966/large/008bLEJGgy1hc40ennm4uj306o06omx9.jpg"
   },
   {
     "name": "akianime",
@@ -29,7 +32,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1786942825000
+    "lastUpdate": 1786942825000,
+    "icon": "https://www.akianime.cc/template/dsn2/static/img/icon.png"
   },
   {
     "name": "baimao",
@@ -37,7 +41,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1769573721000
+    "lastUpdate": 1769573721000,
+    "icon": ""
   },
   {
     "name": "dalvdm",
@@ -45,7 +50,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1790850696000
+    "lastUpdate": 1790850696000,
+    "icon": ""
   },
   {
     "name": "DM84",
@@ -53,7 +59,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1770015775000
+    "lastUpdate": 1770015775000,
+    "icon": "https://dmbus.cc/favicon.ico"
   },
   {
     "name": "ezdmw",
@@ -61,7 +68,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1786883419000
+    "lastUpdate": 1786883419000,
+    "icon": "https://m.ezdmw.org/Public/images/icon.png"
   },
   {
     "name": "giriGiriLove",
@@ -69,7 +77,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1786247138000
+    "lastUpdate": 1786247138000,
+    "icon": ""
   },
   {
     "name": "mgnacg",
@@ -77,7 +86,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1780897282000
+    "lastUpdate": 1780897282000,
+    "icon": "https://r2img.nanoacg.com/favicon.png"
   },
   {
     "name": "milimili",
@@ -85,7 +95,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1790854499000
+    "lastUpdate": 1790854499000,
+    "icon": "https://milimili.moe/brand/dog-head.png"
   },
   {
     "name": "moonci",
@@ -93,7 +104,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1787975634000
+    "lastUpdate": 1787975634000,
+    "icon": "https://www.moonci.com/template/conch/asset/img/favicon.png"
   },
   {
     "name": "mutefun",
@@ -101,7 +113,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1787463227000
+    "lastUpdate": 1787463227000,
+    "icon": ""
   },
   {
     "name": "MXdm",
@@ -109,7 +122,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1790853597000
+    "lastUpdate": 1790853597000,
+    "icon": "https://www.dcc3.com/favicon.ico"
   },
   {
     "name": "sorani",
@@ -117,7 +131,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1783910492000
+    "lastUpdate": 1783910492000,
+    "icon": ""
   },
   {
     "name": "xfdmneo",
@@ -125,7 +140,8 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1772964002000
+    "lastUpdate": 1772964002000,
+    "icon": ""
   },
   {
     "name": "xfdmnext",
@@ -133,6 +149,17 @@
     "useNativePlayer": true,
     "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1790868808000
+    "lastUpdate": 1790868808000,
+    "icon": ""
+  },
+  {
+    "name": "ciyuancheng",
+    "version": "3.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "",
+    "lastUpdate": 1790985106542,
+    "needLogin": true,
+    "icon": "https://www.cycani.org/favicon.ico"
   }
 ]

@@ -1,26 +1,72 @@
 {
-    "deprecated": true,
-    "api": "6",
-    "type": "anime",
-    "name": "ciyuancheng",
-    "version": "2.0",
-    "muliSources": true,
-    "useWebview": true,
-    "useNativePlayer": true,
-    "usePost": false,
-    "userAgent": "",
-    "baseURL": "https://www.cycani.org/",
-    "searchURL": "https://www.cycani.org/search.html?wd=@keyword",
-    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
-    "searchName": "//div/div[2]/a/h3",
-    "searchResult": "//div/div[2]/a",
-    "chapterRoads": "//ul[@class='anthology-list-play size']",
-    "chapterResult": "//li/a",
-    "antiCrawlerConfig": {
-        "enabled": true,
-        "captchaType": 1,
-        "captchaImage": "//img[@class='ds-verify-img']",
-        "captchaInput": "//input[@name='verify']",
-        "captchaButton": "//button[@class='button verify-submit top20']"
+  "api": "8",
+  "type": "anime",
+  "name": "ciyuancheng",
+  "version": "3.0",
+  "muliSources": false,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "baseURL": "https://www.cycani.org/",
+  "referer": "https://www.cycani.org/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.cycani.org/api/videos/search",
+      "query": {
+        "q": "@keyword",
+        "page": 1,
+        "page_size": 24
+      },
+      "headers": {
+        "Accept": "application/json",
+        "X-App-Name": "cyc_web",
+        "X-App-Version": "cycweb",
+        "X-Time-Zone": "Asia/Shanghai"
+      }
+    },
+    "listPath": "$.data.list[*]",
+    "namePath": "$.title",
+    "sourcePath": "$.video_id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.cycani.org/api/videos/@source/sections",
+      "query": {
+        "player_code": "cychub",
+        "page": 1,
+        "page_size": 48
+      },
+      "headers": {
+        "Accept": "application/json",
+        "X-App-Name": "cyc_web",
+        "X-App-Version": "cycweb",
+        "X-Time-Zone": "Asia/Shanghai"
+      }
+    },
+    "format": "nested",
+    "roadsPath": "$.data",
+    "roadNamePath": "",
+    "episodesPath": "$.list[*]",
+    "episodeNamePath": "$.title",
+    "episodeUrlPath": "",
+    "episodePage": {
+      "url": "/anime/@source/play/@episodeNumber?from=cychub",
+      "query": {}
     }
+  },
+  "needLogin": true,
+  "loginURL": "https://www.cycani.org/login",
+  "icon": "https://www.cycani.org/favicon.ico"
 }

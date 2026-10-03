@@ -13,5 +13,6 @@
     "searchName": "//div[2]/text()",
     "searchResult": "//a",
     "chapterRoads": "//div[2]/div[2]/div[2]/div/div[2]/div[1]//div",
-    "chapterResult": "//a"
+    "chapterResult": "//a",
+    "icon": "https://www.7sefun.top//pc/img/favicon.ico"
 }
