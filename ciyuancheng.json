@@ -68,5 +68,5 @@
   },
   "needLogin": true,
   "loginURL": "https://www.cycani.org/login",
-  "icon": "https://cdn.aqdstatic.com:966/large/008bLEJGgy1hc40ennm4uj306o06omx9.jpg"
+  "icon": "https://www.cycani.org/favicon.ico"
 }
