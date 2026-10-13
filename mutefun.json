@@ -1,8 +1,8 @@
 {
-    "api": "6",
+    "api": "8",
     "type": "anime",
     "name": "mutefun",
-    "version": "1.2",
+    "version": "1.3",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -10,19 +10,27 @@
     "useLegacyParser": false,
     "adBlocker": false,
     "userAgent": "",
-    "baseURL": "https://www.2kdm.com/",
-    "searchURL": "https://www.2kdm.com/vodsearch/-------------.html?wd=@keyword",
-    "searchList": "//div[1]/div[3]/div/div/div[3]/div//div",
-    "searchName": "//div[2]/div[1]/a/strong",
-    "searchResult": "//div[3]/a[2]",
-    "chapterRoads": "//div[1]/div[3]/div/div[3]//div",
-    "chapterResult": "//div/div/a",
-    "referer": "",
-    "antiCrawlerConfig": {
-        "enabled": true,
-        "captchaType": 1,
-        "captchaImage": "//div[4]/div[1]/img",
-        "captchaInput": "//div[4]/div[1]/input",
-        "captchaButton": "//div[4]/div[2]/input"
-    }
+    "baseURL": "https://www.2kdm.com/voddetail/",
+    "searchMode": "api",
+    "chapterMode": "xpath",
+    "searchApiConfig": {
+        "request": {
+            "method": "GET",
+            "url": "https://www.2kdm.com/index.php/ajax/suggest",
+            "query": {
+                "mid": "1",
+                "wd": "@keyword"
+            }
+        },
+        "listPath": "$.list[*]",
+        "namePath": "$.name",
+        "sourcePath": "$.id"
+    },
+    "searchURL": "",
+    "searchList": "",
+    "searchName": "",
+    "searchResult": "",
+    "chapterRoads": "//div[contains(@class,'module-play-list-content')]",
+    "chapterResult": ".//a[contains(@class,'module-play-list-link')]",
+    "referer": ""
 }
