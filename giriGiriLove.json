@@ -1,8 +1,8 @@
 {
-    "api": "6",
+    "api": "9",
     "type": "anime",
     "name": "giriGiriLove",
-    "version": "2.4",
+    "version": "2.5",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -11,18 +11,27 @@
     "adBlocker": false,
     "userAgent": "",
     "baseURL": "https://ani.girigirilove.com",
-    "searchURL": "https://ani.girigirilove.com/search/-------------/?wd=@keyword",
-    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
-    "searchName": "//div/div[2]/a",
-    "searchResult": "//div/div[2]/a",
+    "searchMode": "api",
+    "chapterMode": "xpath",
+    "searchApiConfig": {
+        "request": {
+            "method": "GET",
+            "url": "https://ani.girigirilove.com/index.php/ajax/suggest",
+            "query": {
+                "mid": "1",
+                "wd": "@keyword"
+            }
+        },
+        "listPath": "$.list[*]",
+        "namePath": "$.name",
+        "sourcePath": "$.id",
+        "sourceTemplate": "https://ani.girigirilove.com/GV@source/"
+    },
+    "searchURL": "",
+    "searchList": "",
+    "searchName": "",
+    "searchResult": "",
     "chapterRoads": "//ul[@class='anthology-list-play size']",
     "chapterResult": "//li/a",
-    "referer": "",
-    "antiCrawlerConfig": {
-        "enabled": true,
-        "captchaType": 1,
-        "captchaImage": "//img[@class='ds-verify-img']",
-        "captchaInput": "//input[@class='input box br cor5 ds-verify r6']",
-        "captchaButton": "//button[@class='button verify-submit top20']"
-    }
+    "referer": ""
 }
