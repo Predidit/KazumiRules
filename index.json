@@ -65,11 +65,11 @@
   },
   {
     "name": "giriGiriLove",
-    "version": "2.4",
+    "version": "2.5",
     "useNativePlayer": true,
-    "antiCrawlerEnabled": true,
+    "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1786247138000
+    "lastUpdate": 1791988046000
   },
   {
     "name": "mgnacg",
