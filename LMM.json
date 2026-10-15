@@ -1,9 +1,8 @@
 {
-    "deprecated": true,
-    "api": "7",
+    "api": "9",
     "type": "anime",
     "name": "LMM",
-    "version": "2.2",
+    "version": "2.3",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -12,21 +11,27 @@
     "adBlocker": false,
     "userAgent": "",
     "baseURL": "https://www.lmm85.com/",
-    "searchURL": "https://www.lmm85.com/vod/search.html?wd=@keyword",
-    "searchList": "//div[@id='mdym']//div[contains(@class,'video-img-box')]",
-    "searchName": ".//h6/a",
-    "searchResult": ".//h6/a",
-    "chapterRoads": "//div[contains(@class,'module-player-list')]",
-    "chapterResult": ".//a",
-    "referer": "https://www.lmm85.com/",
-    "antiCrawlerConfig": {
-        "enabled": true,
-        "captchaType": 2,
-        "captchaDetectType": 2,
-        "captchaDetectValue": "身份验证",
-        "captchaImage": "",
-        "captchaInput": "",
-        "captchaButton": "//button[contains(text(),'立即验证')]",
-        "captchaScript": ""
-    }
+    "searchURL": "",
+    "searchMode": "api",
+    "chapterMode": "xpath",
+    "searchApiConfig": {
+        "request": {
+            "method": "GET",
+            "url": "https://www.lmm85.com/index.php/ajax/suggest",
+            "query": {
+                "mid": "1",
+                "wd": "@keyword"
+            }
+        },
+        "listPath": "$.list[*]",
+        "namePath": "$.name",
+        "sourcePath": "$.id",
+        "sourceTemplate": "https://www.lmm85.com/index.php/vod/detail/id/@source.html"
+    },
+    "searchList": "",
+    "searchName": "",
+    "searchResult": "",
+    "chapterRoads": "//div[contains(@class, 'module-player-list')]",
+    "chapterResult": ".//a[contains(@href, '/play/')]",
+    "referer": ""
 }
