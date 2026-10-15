@@ -1,9 +1,9 @@
 {
   "deprecated": true,
-  "api": "7",
+  "api": "9",
   "type": "anime",
   "name": "FQDM",
-  "version": "2.0",
+  "version": "2.1",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
@@ -11,22 +11,27 @@
   "useLegacyParser": true,
   "adBlocker": true,
   "userAgent": "",
-  "baseURL": "https://www.fqdm.cc/",
-  "searchURL": "https://www.fqdm.cc/index.php/vod/search/wd/@keyword.html",
-  "searchList": "//div[@class='module-items module-card-items']/div[contains(@class, 'module-card-item')]",
-  "searchName": ".//div[@class='module-card-item-title']/a",
-  "searchResult": ".//div[@class='module-card-item-title']/a",
-  "chapterRoads": "//div[contains(@class,'module-play-list-content')]",
-  "chapterResult": "//a[contains(@class,'module-play-list-link')]",
-  "referer": "",
-  "antiCrawlerConfig": {
-    "enabled": false,
-    "captchaType": 1,
-    "captchaImage": "",
-    "captchaInput": "",
-    "captchaButton": "",
-    "captchaDetectType": 1,
-    "captchaDetectValue": "",
-    "captchaScript": ""
-  }
+  "baseURL": "https://www.fqdm.cc/index.php/vod/detail/id/",
+  "searchURL": "",
+  "searchMode": "api",
+  "chapterMode": "xpath",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.fqdm.cc/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "@keyword"
+      }
+    },
+    "listPath": "$.list[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id"
+  },
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "//div[@id='panel1']",
+  "chapterResult": ".//a[contains(@class, 'module-play-list-link')]",
+  "referer": ""
 }

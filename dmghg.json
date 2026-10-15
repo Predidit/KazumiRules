@@ -1,9 +1,9 @@
 {
   "deprecated": true,
-  "api": "7",
+  "api": "9",
   "type": "anime",
   "name": "dmghg",
-  "version": "1.0",
+  "version": "1.1",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
@@ -11,22 +11,27 @@
   "useLegacyParser": true,
   "adBlocker": true,
   "userAgent": "",
-  "baseURL": "https://www.dmghg1.com/",
-  "searchURL": "https://www.dmghg1.com/index.php/vod/search.html?wd=@keyword",
-  "searchList": "//div[@class='module-items module-card-items']//div",
-  "searchName": "//a/strong",
-  "searchResult": "//div[@class='module-card-item-footer']/a[2]",
-  "chapterRoads": "//div[@class='module-play-list-content  module-play-list-larger ']",
-  "chapterResult": "//a",
-  "referer": "",
-  "antiCrawlerConfig": {
-    "enabled": false,
-    "captchaType": 1,
-    "captchaImage": "",
-    "captchaInput": "",
-    "captchaButton": "",
-    "captchaDetectType": 1,
-    "captchaDetectValue": "",
-    "captchaScript": ""
-  }
+  "baseURL": "https://www.dmghg1.com/index.php/vod/detail/id/",
+  "searchURL": "",
+  "searchMode": "api",
+  "chapterMode": "xpath",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.dmghg1.com/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "@keyword"
+      }
+    },
+    "listPath": "$.list[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id"
+  },
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "//div[@id='panel1']",
+  "chapterResult": ".//a[contains(@class, 'module-play-list-link')]",
+  "referer": ""
 }
