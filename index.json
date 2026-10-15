@@ -81,11 +81,11 @@
   },
   {
     "name": "mgnacg",
-    "version": "1.0",
+    "version": "1.1",
     "useNativePlayer": true,
-    "antiCrawlerEnabled": true,
+    "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1780897282000
+    "lastUpdate": 1792058386000
   },
   {
     "name": "moonci",
