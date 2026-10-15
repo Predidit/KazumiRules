@@ -1,8 +1,8 @@
 {
-  "api": "8",
+  "api": "9",
   "type": "anime",
   "name": "dalvdm",
-  "version": "1.1",
+  "version": "1.2",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
@@ -11,23 +11,27 @@
   "adBlocker": true,
   "userAgent": "",
   "baseURL": "https://www.sbdl.cc/",
-  "searchURL": "https://www.sbdl.cc/index.php/vod/search.html?wd=@keyword",
-  "searchMode": "xpath",
+  "searchURL": "",
+  "searchMode": "api",
   "chapterMode": "xpath",
-  "searchList": "//div[contains(@class, 'myui-vodbox-content')]",
-  "searchName": "//div[@class='card-info']//div[@class='title']",
-  "searchResult": "//a[contains(@href, '/index.php/vod/detail/')]",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.sbdl.cc/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "@keyword"
+      }
+    },
+    "listPath": "$.list[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id",
+    "sourceTemplate": "https://www.sbdl.cc/index.php/vod/detail/id/@source.html"
+  },
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
   "chapterRoads": "//div[starts-with(@id, 'playlist')][contains(@class, 'lists-box')]",
-  "chapterResult": "//a[contains(@href, '/index.php/vod/play/')]",
-  "referer": "",
-  "antiCrawlerConfig": {
-    "enabled": true,
-    "captchaType": 1,
-    "captchaImage": "//div[contains(@class, 'mac_msg_jump')]//img[contains(@class, 'mac_verify_img')]",
-    "captchaInput": "//div[contains(@class, 'mac_msg_jump')]//input[@name='verify']",
-    "captchaButton": "//div[contains(@class, 'mac_msg_jump')]//input[contains(@class, 'verify_submit')]",
-    "captchaDetectType": 1,
-    "captchaDetectValue": "//div[contains(@class, 'mac_msg_jump')]//input[@name='verify']",
-    "captchaScript": ""
-  }
+  "chapterResult": ".//a[contains(@href, '/index.php/vod/play/')]",
+  "referer": ""
 }
