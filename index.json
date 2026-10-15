@@ -41,11 +41,11 @@
   },
   {
     "name": "dalvdm",
-    "version": "1.1",
+    "version": "1.2",
     "useNativePlayer": true,
-    "antiCrawlerEnabled": true,
+    "antiCrawlerEnabled": false,
     "author": "",
-    "lastUpdate": 1790850696000
+    "lastUpdate": 1792049112000
   },
   {
     "name": "DM84",
@@ -70,6 +70,14 @@
     "antiCrawlerEnabled": false,
     "author": "",
     "lastUpdate": 1791988046000
+  },
+  {
+    "name": "LMM",
+    "version": "2.3",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1792049112000
   },
   {
     "name": "mgnacg",
