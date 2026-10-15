@@ -1,0 +1,33 @@
+{
+  "api": "6",
+  "type": "anime",
+  "name": "hongguo",
+  "version": "1.1",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+  "baseURL": "https://www.hongguoapp.cn/",
+  "searchURL": "https://www.hongguoapp.cn/vodshow/-----------.html?wd=@keyword",
+  "searchList": "//li[contains(@class,'hl-list-item')]",
+  "searchName": ".//div[contains(@class,'hl-item-title')]/a",
+  "searchResult": ".//a[contains(@class,'hl-item-thumb')]",
+  "chapterRoads": "//ul[contains(@class,'hl-plays-list')]",
+  "chapterResult": ".//a[contains(@href,'/vodplay/')]",
+  "referer": "https://www.hongguoapp.cn/",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
