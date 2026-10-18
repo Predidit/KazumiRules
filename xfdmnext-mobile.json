@@ -1,0 +1,76 @@
+{
+  "api": "8",
+  "type": "anime",
+  "name": "xfdmnext-mobile",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://next.xifanacg.com/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "referer": "https://next.xifanacg.com/",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "POST",
+      "url": "https://api.xifanacg.com/rest/v1/rpc/search_animes",
+      "headers": {
+        "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
+        "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
+      },
+      "bodyType": "json",
+      "body": {
+        "search_term": "@keyword",
+        "page_number": 1,
+        "items_per_page": 24
+      }
+    },
+    "listPath": "$[*]",
+    "namePath": "$.title",
+    "sourcePath": "$.id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "POST",
+      "url": "https://api.xifanacg.com/rest/v1/rpc/get_anime_detail",
+      "headers": {
+        "apikey": "sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA",
+        "Authorization": "Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA"
+      },
+      "bodyType": "json",
+      "body": {
+        "p_id": "@source"
+      }
+    },
+    "format": "nested",
+    "roadsPath": "$.sources[0]",
+    "roadNamePath": "$.name",
+    "episodesPath": "$.episodes[*]",
+    "episodeNamePath": "$.title",
+    "episodeUrlPath": "$.id",
+    "episodePage": {
+      "url": "data:text/html,<video id=v autoplay playsinline></video><script>fetch('https://api.xifanacg.com/functions/v1/issue-web-playback',{method:'POST',headers:{'Content-Type':'application/json',apikey:'sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA',Authorization:'Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA'},body:JSON.stringify({action:'fallback',episode_id:@episodeUrl})}).then(r=>r.json()).then(j=>{if(j&&j.url){v.src=j.url}else{location.href='https://next.xifanacg.com/anime/@source/play/@episodeUrl'}}).catch(e=>{location.href='https://next.xifanacg.com/anime/@source/play/@episodeUrl'})</script>",
+      "query": {}
+    }
+  },
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
