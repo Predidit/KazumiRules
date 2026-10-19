@@ -1,8 +1,8 @@
 {
-    "api": "8",
+    "api": "9",
     "type": "anime",
     "name": "moonci",
-    "version": "1.0",
+    "version": "1.1",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -11,15 +11,29 @@
     "adBlocker": false,
     "userAgent": "",
     "baseURL": "https://www.moonci.com/",
-    "searchURL": "https://www.moonci.com/search/-------------.html?wd=@keyword",
-    "searchList": "//ul[contains(@class, 'hl-one-list')]/li[contains(@class, 'hl-list-item')]",
-    "searchName": ".//div[contains(@class, 'hl-item-title')]/a",
-    "searchResult": ".//div[contains(@class, 'hl-item-title')]/a",
+    "searchMode": "api",
+    "chapterMode": "xpath",
+    "searchApiConfig": {
+        "request": {
+            "method": "GET",
+            "url": "https://www.moonci.com/index.php/ajax/suggest",
+            "query": {
+                "mid": "1",
+                "wd": "@keyword"
+            }
+        },
+        "listPath": "$.list[*]",
+        "namePath": "$.name",
+        "sourcePath": "$.id",
+        "sourceTemplate": "https://www.moonci.com/anime/@source.html"
+    },
+    "searchURL": "",
+    "searchList": "",
+    "searchName": "",
+    "searchResult": "",
     "chapterRoads": "//div[contains(@class, 'hl-play-source')]//ul[contains(@class, 'hl-plays-list')]",
     "chapterResult": ".//a[contains(@href, '/play/')]",
     "referer": "",
-    "searchMode": "xpath",
-    "chapterMode": "xpath",
     "antiCrawlerConfig": {
         "enabled": false,
         "captchaType": 1,
