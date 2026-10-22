@@ -1,0 +1,33 @@
+{
+    "api": "8",
+    "type": "anime",
+    "name": "dmgh",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://omofun.org.cn",
+    "searchURL": "https://omofun.org.cn/u/?wd=@keyword",
+    "searchList": "//article",
+    "searchName": "//a/h2",
+    "searchResult": "//a",
+    "chapterRoads": "//*[@id=\"video_list_li\"]/div",
+    "chapterResult": "//a",
+    "referer": "",
+    "searchMode": "xpath",
+    "chapterMode": "xpath",
+    "antiCrawlerConfig": {
+        "enabled": false,
+        "captchaType": 1,
+        "captchaImage": "",
+        "captchaInput": "",
+        "captchaButton": "",
+        "captchaDetectType": 1,
+        "captchaDetectValue": "",
+        "captchaScript": ""
+    }
+}
