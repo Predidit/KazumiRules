@@ -2,7 +2,7 @@
     "api": "9",
     "type": "anime",
     "name": "mutefun",
-    "version": "1.4",
+    "version": "1.5",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
