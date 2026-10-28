@@ -2,7 +2,7 @@
     "api": "9",
     "type": "anime",
     "name": "mutefun",
-    "version": "1.4",
+    "version": "1.5",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -10,13 +10,13 @@
     "useLegacyParser": false,
     "adBlocker": false,
     "userAgent": "",
-    "baseURL": "https://www.2kdm.com/voddetail/",
+    "baseURL": "https://www.mutedm.com/voddetail/",
     "searchMode": "api",
     "chapterMode": "xpath",
     "searchApiConfig": {
         "request": {
             "method": "GET",
-            "url": "https://www.2kdm.com/index.php/ajax/suggest",
+            "url": "https://www.mutedm.com/index.php/ajax/suggest",
             "query": {
                 "mid": "1",
                 "wd": "@keyword"
