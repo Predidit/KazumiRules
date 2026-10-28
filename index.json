@@ -120,6 +120,14 @@
     "lastUpdate": 1783910492000
   },
   {
+    "name": "TvTFun",
+    "version": "1.2",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1793160384000
+  },
+  {
     "name": "xfdmneo",
     "version": "1.1",
     "useNativePlayer": true,
