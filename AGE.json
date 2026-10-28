@@ -1,9 +1,10 @@
 {
-    "api": "1",
+    "api": "5",
     "type": "anime",
     "name": "AGE",
-    "version": "1.5",
+    "version": "1.6",
     "muliSources": true,
+    "adBlocker": true,
     "useWebview": true,
     "useNativePlayer": true,
     "userAgent": "",
