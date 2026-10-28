@@ -1,69 +1,59 @@
 {
-    "deprecated": true,
-    "api": "8",
-    "type": "anime",
-    "name": "TvTFun",
-    "version": "1.1",
-    "muliSources": true,
-    "useWebview": true,
-    "useNativePlayer": true,
-    "usePost": false,
-    "useLegacyParser": false,
-    "adBlocker": true,
-    "userAgent": "",
-    "baseURL": "https://www.tvtfun.net/",
-    "searchURL": "",
-    "searchList": "",
-    "searchName": "",
-    "searchResult": "",
-    "chapterRoads": "",
-    "chapterResult": "",
-    "referer": "https://www.tvtfun.net/",
-    "searchMode": "api",
-    "chapterMode": "api",
-    "searchApiConfig": {
-        "request": {
-            "method": "GET",
-            "url": "https://www.tvtfun.net/api/videos/search",
-            "query": {
-                "q": "@keyword",
-                "pageSize": 5
-            }
-        },
-        "listPath": "$.data.videos[*]",
-        "namePath": "$.name",
-        "sourcePath": "$.id"
+  "api": "9",
+  "type": "anime",
+  "name": "TvTFun",
+  "version": "1.2",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "",
+  "baseURL": "https://www.tvtfun.net",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "referer": "",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.tvtfun.net/api/client/anime",
+      "query": {
+        "keyword": "@keyword",
+        "page": 1,
+        "pageSize": 24
+      }
     },
-    "chapterApiConfig": {
-        "request": {
-            "method": "GET",
-            "url": "https://www.tvtfun.net/api/videos/@source"
-        },
-        "format": "nested",
-        "roadsPath": "$.data.playSources[*]",
-        "roadNamePath": "$.name",
-        "episodesPath": "$.episodes[*]",
-        "episodeNamePath": "$.name",
-        "episodeUrlPath": "",
-        "variables": {
-            "slug": "$.data.slug"
-        },
-        "episodePage": {
-            "url": "https://www.tvtfun.net/video/@slug/play",
-            "query": {
-                "source": "@roadIndex",
-                "episode": "@episodeIndex"
-            }
-        }
+    "listPath": "$.data.items[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id"
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.tvtfun.net/api/client/anime/@source"
     },
-    "antiCrawlerConfig": {
-        "enabled": false,
-        "captchaType": 1,
-        "captchaImage": "",
-        "captchaInput": "",
-        "captchaButton": "",
-        "captchaDetectType": 1,
-        "captchaDetectValue": "",
-        "captchaScript": ""
-    }
+    "format": "nested",
+    "roadsPath": "$.data.seasons[*]",
+    "roadNamePath": "$.name",
+    "episodesPath": "$.episodes[*]",
+    "episodeNamePath": "$.title",
+    "episodeUrlPath": "$.watchPath"
+  },
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
 }
