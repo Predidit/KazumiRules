@@ -2,7 +2,7 @@
   "api": "9",
   "type": "anime",
   "name": "TvTFun",
-  "version": "1.2",
+  "version": "1.3",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
@@ -15,11 +15,11 @@
   "searchList": "",
   "searchName": "",
   "searchResult": "",
-  "chapterRoads": "",
-  "chapterResult": "",
+  "chapterRoads": "//ol[@class*='tvt-watch-episodes']",
+  "chapterResult": "//li/a",
   "referer": "",
   "searchMode": "api",
-  "chapterMode": "api",
+  "chapterMode": "xpath",
   "searchApiConfig": {
     "request": {
       "method": "GET",
@@ -32,19 +32,8 @@
     },
     "listPath": "$.data.items[*]",
     "namePath": "$.name",
-    "sourcePath": "$.id"
-  },
-  "chapterApiConfig": {
-    "request": {
-      "method": "GET",
-      "url": "https://www.tvtfun.net/api/client/anime/@source"
-    },
-    "format": "nested",
-    "roadsPath": "$.data.seasons[*]",
-    "roadNamePath": "$.name",
-    "episodesPath": "$.episodes[*]",
-    "episodeNamePath": "$.title",
-    "episodeUrlPath": "$.watchPath"
+    "sourcePath": "$.slug",
+    "sourceTemplate": "https://www.tvtfun.net/watch/@source/1"
   },
   "antiCrawlerConfig": {
     "enabled": false,
