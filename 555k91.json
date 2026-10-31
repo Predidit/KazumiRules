@@ -1,0 +1,33 @@
+{
+  "api": "8",
+  "type": "anime",
+  "name": "555k91",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://555k91.com/",
+  "searchURL": "https://555k91.com/vodsearch/-------------.html?wd=@keyword",
+  "searchList": "//div[@class='module-card-item module-item']",
+  "searchName": "//div[@class='module-card-item-title']/a/strong",
+  "searchResult": "//div[@class='module-card-item-title']/a",
+  "chapterRoads": "//div[@class='module-list sort-list tab-list his-tab-list']",
+  "chapterResult": "//a[contains(@class,'module-play-list-link')]",
+  "referer": "",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
