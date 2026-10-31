@@ -1,36 +1,33 @@
 {
-    "api": "9",
-    "type": "anime",
-    "name": "mutefun",
-    "version": "1.5",
-    "muliSources": true,
-    "useWebview": true,
-    "useNativePlayer": true,
-    "usePost": false,
-    "useLegacyParser": false,
-    "adBlocker": false,
-    "userAgent": "",
-    "baseURL": "https://www.mutedm.com/voddetail/",
-    "searchMode": "api",
-    "chapterMode": "xpath",
-    "searchApiConfig": {
-        "request": {
-            "method": "GET",
-            "url": "https://www.mutedm.com/index.php/ajax/suggest",
-            "query": {
-                "mid": "1",
-                "wd": "@keyword"
-            }
-        },
-        "listPath": "$.list[*]",
-        "namePath": "$.name",
-        "sourcePath": "$.id"
-    },
-    "searchURL": "",
-    "searchList": "",
-    "searchName": "",
-    "searchResult": "",
-    "chapterRoads": "//div[contains(@class,'module-play-list-content')]",
-    "chapterResult": ".//a[contains(@class,'module-play-list-link')]",
-    "referer": ""
+  "api": "9",
+  "type": "anime",
+  "name": "mutefun",
+  "version": "1.6",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": true,
+  "userAgent": "",
+  "baseURL": "https://www.mutedm.com",
+  "searchURL": "https://www.mutedm.com/search?q=@keyword",
+  "searchList": "//section[contains(@class,'search-results-section')]//a[contains(@class,'video-card')]",
+  "searchName": "//span[contains(@class,'video-card-title')]",
+  "searchResult": ".",
+  "chapterRoads": "//div[contains(@class,'episode-panel')]//div[contains(@class,'episode-list')]",
+  "chapterResult": "//a",
+  "referer": "",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": true,
+    "captchaType": 1,
+    "captchaImage": "//form[contains(@action,'/captcha/verify')]//img",
+    "captchaInput": "//input[@id='gate-answer']",
+    "captchaButton": "//form[contains(@action,'/captcha/verify')]//button[@type='submit']",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "//form[contains(@action,'/captcha/verify')]",
+    "captchaScript": ""
+  }
 }
