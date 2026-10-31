@@ -97,11 +97,11 @@
   },
   {
     "name": "mutefun",
-    "version": "1.5",
+    "version": "1.6",
     "useNativePlayer": true,
-    "antiCrawlerEnabled": false,
+    "antiCrawlerEnabled": true,
     "author": "",
-    "lastUpdate": 1793146170000
+    "lastUpdate": 1793442148000
   },
   {
     "name": "MXdm",
