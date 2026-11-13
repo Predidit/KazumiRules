@@ -2,7 +2,7 @@
     "api": "9",
     "type": "anime",
     "name": "giriGiriLove",
-    "version": "2.6",
+    "version": "2.7",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,
@@ -41,7 +41,14 @@
         "roadEpisodesPath": "$.info.vod_play_url",
         "roadSeparator": "$$$",
         "episodeSeparator": "#",
-        "fieldSeparator": "$"
+        "fieldSeparator": "$",
+        "episodePage": {
+            "url": "https://pl.girigirilove.com/addons/aplyer/atom.php",
+            "query": {
+                "key": "0",
+                "url": "@episodeUrl"
+            }
+        }
     },
     "searchURL": "",
     "searchList": "",
