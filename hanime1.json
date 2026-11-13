@@ -1,0 +1,33 @@
+{
+  "api": "9",
+  "type": "anime",
+  "name": "hanime1",
+  "version": "1.7",
+  "muliSources": false,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  "baseURL": "https://hanimeone.me/",
+  "searchURL": "https://hanimeone.me/search?query=@keyword&page=1",
+  "searchList": "//a[contains(@class,'video-link') and contains(@href,'/watch')]",
+  "searchName": ".//div[@class='title']",
+  "searchResult": ".",
+  "chapterRoads": "//div[contains(@class,'playlist-scroll-node')]",
+  "chapterResult": "//h4[contains(@class,'video-title')]/a[contains(@href,'/watch')]",
+  "referer": "https://hanimeone.me/",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": true,
+    "captchaType": 3,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 3,
+    "captchaDetectValue": "(Just a moment|Attention Required|Checking your browser|cf-browser-verification|you have been blocked)",
+    "captchaScript": "(function(){function cfActive(){if(document.querySelector('#challenge-running,.cf-turnstile,#cf-turnstile,iframe[src*=\"challenges.cloudflare\"]'))return true;var t=(document.title||'')+(document.body?document.body.innerText:'');return/Just a moment|Attention Required|Checking your browser|cf-browser-verification|you have been blocked/i.test(t);}function ready(){return document.readyState==='complete'&&/hanimeone\\.me/i.test(location.hostname)&&!cfActive();}var n=0;function loop(){var links=document.querySelector(\"a.video-link[href*='/watch']\");if(links){window.KazumiCaptcha.done();return;}if(ready()&&n>=8){window.KazumiCaptcha.done();return;}n++;if(n>=90){window.KazumiCaptcha.fail('timeout');return;}setTimeout(loop,1000);}window.KazumiCaptcha.log('hanime1 captcha poll start');loop();})()"
+  }
+}
