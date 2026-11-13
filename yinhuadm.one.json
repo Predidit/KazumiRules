@@ -1,0 +1,33 @@
+{
+  "api": "8",
+  "type": "anime",
+  "name": "yinhuadm.one",//线路发布页，可以自己更新baseUrl
+  "version": "0.1",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://www.yinhuadm.cc/",
+  "searchURL": "https://www.yinhuadm.cc/vch/@keyword",
+  "searchList": "//div[1]/div[3]/div/div/div[2]/div/div",
+  "searchName": "/div[2]/div[1]/a/strong",
+  "searchResult": "/div[3]/a[2]",
+  "chapterRoads": "//div[1]/div[3]/div/div[3]/div",
+  "chapterResult": "/div/div/a",
+  "referer": "",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
