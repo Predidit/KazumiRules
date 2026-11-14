@@ -1,0 +1,72 @@
+{
+  "api": "9",
+  "type": "anime",
+  "name": "imoow",
+  "version": "1.0",
+  "author": "imoow",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://dmghg.imoow.com/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "",
+  "chapterResult": "",
+  "referer": "",
+  "searchMode": "api",
+  "chapterMode": "api",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://dmghg.imoow.com/api/v1/video/search",
+      "query": {
+        "key": "@keyword",
+        "page": 1,
+        "limit": 24
+      }
+    },
+    "listPath": "$.data.items[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id",
+    "sourceTemplate": ""
+  },
+  "chapterApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://dmghg.imoow.com/api/v1/video/detail",
+      "query": {
+        "id": "@source"
+      }
+    },
+    "format": "nested",
+    "roadsPath": "$.data.parts[*]",
+    "roadNamePath": "$.play_zh",
+    "episodesPath": "$.part[*]",
+    "episodeNamePath": "$",
+    "episodeUrlPath": "$",
+    "episodePage": {
+      "url": "https://dmghg.imoow.com/play",
+      "query": {
+        "id": "@source",
+        "road": "@roadIndex",
+        "part": "@episodeUrl"
+      }
+    }
+  },
+  "antiCrawlerConfig": {
+    "enabled": false,
+    "captchaType": 1,
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
