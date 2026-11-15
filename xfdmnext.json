@@ -2,7 +2,7 @@
   "api": "8",
   "type": "anime",
   "name": "xfdmnext",
-  "version": "1.1",
+  "version": "1.2",
   "muliSources": false,
   "useWebview": true,
   "useNativePlayer": true,
@@ -52,13 +52,13 @@
       }
     },
     "format": "nested",
-    "roadsPath": "$.sources[*]",
+    "roadsPath": "$.sources[0]",
     "roadNamePath": "$.name",
     "episodesPath": "$.episodes[*]",
     "episodeNamePath": "$.title",
     "episodeUrlPath": "$.id",
     "episodePage": {
-      "url": "https://next.xifanacg.com/anime/@source/play/@episodeUrl",
+      "url": "data:text/html,<video id=v autoplay playsinline></video><script>fetch('https://api.xifanacg.com/functions/v1/issue-web-playback',{method:'POST',headers:{'Content-Type':'application/json',apikey:'sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA',Authorization:'Bearer sb_publishable_OBIVAWACIX6lPXrO98_z24_HcsmalkA'},body:JSON.stringify({action:'fallback',episode_id:@episodeUrl})}).then(r=>r.json()).then(j=>{if(j&&j.url){v.src=j.url}else{location.href='https://next.xifanacg.com/anime/@source/play/@episodeUrl'}}).catch(e=>{location.href='https://next.xifanacg.com/anime/@source/play/@episodeUrl'})</script>",
       "query": {}
     }
   },
