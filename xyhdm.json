@@ -1,0 +1,37 @@
+{
+  "api": "9",
+  "type": "anime",
+  "name": "xyhdm",
+  "version": "1.5",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": true,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://www.xyhdmw.cc/",
+  "searchURL": "",
+  "searchMode": "api",
+  "chapterMode": "xpath",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://www.xyhdmw.cc/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "@keyword"
+      }
+    },
+    "listPath": "$.list[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id",
+    "sourceTemplate": "https://www.xyhdmw.cc/voddetail/@source.html"
+  },
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "//div[@data-sid='6' or @data-sid='10']//ul[contains(@class,'stui-content__playlist')]",
+  "chapterResult": ".//li/a",
+  "referer": "https://www.xyhdmw.cc/"
+}
